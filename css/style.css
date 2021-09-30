@@ -1,88 +1,49 @@
+/* Kleuren thema's
+Orange: #FE8D0D
+Wit: #F4FAFF
+Zwart: #251605
+Donker-orange: #FE4E02
+Licht-blauw: #5626CA
+Donker-blauw: #1E11A0
+*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
 body {
     font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
-    background: rgba(20, 58, 135, 0.8);
+    height: 100vh;
+    margin: 0;
+    background-image: linear-gradient(#1E11A0, #ba9ffa);
+}
+
+
+header{
+    background-color: #F4FAFF;
+    margin-bottom: 20px;
+    width: 100%;
+    border: solid 2.5px #FE8D0D;
 }
 
 main {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 20px;
-    background: #fff;
+    text-align: center;
 }
 
-header {
-    padding: 20px;
-    background: rgba(0, 13, 39);
-    color: #fff;
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+
+.active{
+    float: right;
+    background-color: #FE8D0D;
+    padding: 4px;
+    margin-top: -50px;
+    margin-right: 20px;
 }
 
-header h1 {
-    margin-bottom: 0;
-}
-
-nav {
-    padding: 20px;
-    background: rgb(162, 184, 232);
-    color: #fff;
-}
-
-.content {
-    background: #ffffff;
-    min-height: 100px;
-    padding: 20px;
-}
-
-nav ul {
-    margin: 0;
-    padding: 0;
+ul{
     list-style: none;
-
-}
-
-nav ul li {
-    display: block;
-}
-
-nav ul li a {
-    display: block;
-    padding: 5px 10px;
-    background: #000;
-    color: #fff;
-    text-decoration: none;
-}
-
-nav ul li .active, nav ul li a:hover {
-    color: #000;
-    background: #fff
-}
-
-
-aside {
-    background: rgb(162, 184, 232);
-    min-height: 100px;
-    padding: 20px;
-}
-
-.top-10 ol {
-    margin: 0;
-    padding: 0 20px;
-}
-
-footer {
-    padding: 20px;
-    color: #fff;
-    background: rgba(0, 13, 39);
-}
-
-@media screen and (min-width: 900px) {
-    main {
-        grid-template-columns: 1fr 350px;
-    }
-
-    nav ul li a {
-        display: inline-block;
-    }
-
 }
