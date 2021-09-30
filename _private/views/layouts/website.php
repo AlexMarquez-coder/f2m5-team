@@ -16,7 +16,6 @@
 <div class="heleContainer">
     <header>
         <img src="../Logo/Logo simpel.webp" alt="" id="logo">
-        <a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( 'home' ) ): ?> class="active"<?php endif ?>>Home</a>
     </header>
     <nav>
 		<?php if ( $this->section( 'navigation' ) ): ?>
