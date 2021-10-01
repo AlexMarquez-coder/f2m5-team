@@ -20,7 +20,16 @@ header{
     margin-bottom: 20px;
     width: 100%;
     border: solid 2.5px #FE8D0D;
+    z-index: 12;
 }
+
+
+.heleContainer{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.2fr ;
+    grid-template-areas:"";
+    }
 
 main {
     display: grid;
@@ -30,20 +39,30 @@ main {
 }
 
 #logo{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 300px;
+    padding: 5px;
+    float: left;
   }
 
 .active{
     float: right;
-    background-color: #FE8D0D;
-    padding: 4px;
-    margin-top: -50px;
-    margin-right: 20px;
+    margin: 15px 35px;
+}
+
+.active:hover{
+    text-decoration: underline;
+    text-decoration-color: #FE8D0D;
 }
 
 ul{
     list-style: none;
+}
+
+
+@media screen and (max-width: 450px){
+    #logo{
+        width: 250px;
+    }
+
+    
 }

@@ -16,14 +16,15 @@
 <div class="heleContainer">
     <header>
         <img src="../Logo/Logo simpel.webp" alt="" id="logo">
+        <nav>
+            <?php if ( $this->section( 'navigation' ) ): ?>
+                <?php echo $this->section( 'navigation' ) ?>
+            <?php else: ?>
+                <?php echo $this->fetch( '_navigation' ) ?>
+            <?php endif ?>
+        </nav>
     </header>
-    <nav>
-		<?php if ( $this->section( 'navigation' ) ): ?>
-			<?php echo $this->section( 'navigation' ) ?>
-		<?php else: ?>
-			<?php echo $this->fetch( '_navigation' ) ?>
-		<?php endif ?>
-    </nav>
+    
     <main>
         <section class="content">
 			<?php echo $this->section( 'content' ) ?>
