@@ -1,6 +1,6 @@
 {
   "name": "mediacollege/mvc-starter",
-  "description": "MVC Voorbeeld Code",
+  "description": "Social Responsibillity -  ",
   "type": "project",
   "require": {
     "pecee/simple-router": "^4.3",
@@ -13,8 +13,8 @@
   "license": "GPL-3.0-or-later",
   "authors": [
     {
-      "name": "Hidde Braun",
-      "email": "h.braun@ma-web.nl"
+      "name": "Robin Schoenmaker ",
+      "email": "24046@ma-web.nl"
     }
   ],
   "autoload": {
