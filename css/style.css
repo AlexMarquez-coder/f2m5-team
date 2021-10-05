@@ -38,31 +38,78 @@ main {
     text-align: center;
 }
 
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 #logo{
     width: 300px;
     padding: 5px;
     float: left;
   }
 
+
 .active{
     float: right;
-    margin: 15px 35px;
+    margin: 35px 25px;
+    color: #251605;
+    font-size: large;
 }
 
 .active:hover{
     text-decoration: underline;
     text-decoration-color: #FE8D0D;
+    color: #1E11A0;
 }
 
-ul{
-    list-style: none;
+nav{
+    text-align: right;
+    height: 80px;
 }
 
+label{
+    margin: 0 40px 0 0;
+    font-size: 30px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right; 
+}
 
-@media screen and (max-width: 450px){
-    #logo{
-        width: 250px;
+#toggle{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    label{
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 26px;
+        float: right; 
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        /* margin-top: 14px; */
+        padding-top: 85px;
+        display: none;
     }
 
-    
+    .active{
+        display: block;
+        margin: 0;
+        padding: 10px;
+        border: solid 2px #FE8D0D;
+        float: none;
+        color: #F4FAFF;
+    }
+    .active:hover{
+        color: #F4FAFF;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
 }
