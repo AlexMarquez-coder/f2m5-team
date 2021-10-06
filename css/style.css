@@ -69,6 +69,57 @@
   border-width: 0
 }
 
+<<<<<<< HEAD
+.active{
+    color: #251605;
+    font-size: large;
+}
+
+#mainmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 25px;
+}
+
+#mainmenu li{
+    margin-left: 45px;
+}
+
+.active:hover{
+    text-decoration: underline;
+    text-decoration-color: #FE8D0D;
+    color: #1E11A0;
+}
+
+#aanmeldknop{
+    background-color: #FE8D0D;
+    margin-right: 20px;
+    margin-top: -3px;
+    border-radius: 6px;
+}
+
+h2{
+    font-weight: 900;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+}
+
+h2, p{
+    text-align: left;
+    /* margin-left: 100px; */
+    color: #F4FAFF;
+}
+
+#sometimes{
+    color: #FE8D0D;
+}
+
+/* nav{
+    text-align: right;
+    height: 80px;
+} */
+=======
 .focus-within\:not-sr-only:focus-within{
   position: static;
   width: auto;
@@ -106,6 +157,7 @@
 .pointer-events-none{
   pointer-events: none
 }
+>>>>>>> f7d3e03fbd6a63d5bfe168f518a9a7ce61ec39bf
 
 .pointer-events-auto{
   pointer-events: auto
@@ -115,6 +167,56 @@
   visibility: visible
 }
 
+@media screen and (max-width: 865px){
+    label{
+        display: block;
+        cursor: pointer;
+        margin-top: 10px;
+        width: 26px;
+        float: right;
+        
+    }
+    .menu{
+        text-align: center;
+        width: 100%;
+        /* margin-top: 14px; */
+        padding-top: 85px;
+        display: none;
+    }
+
+    #mainmenu{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        padding-top: 0px;
+        align-items: inherit;
+    } 
+    
+    #mainmenu li{
+        margin-left: 0px;
+        text-align: center;
+    }
+
+    .active{
+        display: block;
+        margin: 0;
+        padding: 8px;
+        border-bottom: solid 4px #FE8D0D;
+        float: none;
+        font-size: 20px;
+    }
+    #aanmeldknop{
+        background-color: #FE8D0D;
+        padding: 2px;
+        margin-right: 0px; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+    #toggle:checked + .menu{
+        display: block;
+    }
+}
 .invisible{
   visibility: hidden
 }
