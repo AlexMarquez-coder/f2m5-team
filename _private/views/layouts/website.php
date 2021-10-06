@@ -16,14 +16,19 @@
 <div class="heleContainer">
     <header>
         <img src="../Logo/Logo simpel.webp" alt="" id="logo">
+        <nav>
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <?php if ( $this->section( 'navigation' ) ): ?>
+                    <?php echo $this->section( 'navigation' ) ?>
+                <?php else: ?>
+                    <?php echo $this->fetch( '_navigation' ) ?>
+                <?php endif ?>
+            </div>
+        </nav>
     </header>
-    <nav>
-		<?php if ( $this->section( 'navigation' ) ): ?>
-			<?php echo $this->section( 'navigation' ) ?>
-		<?php else: ?>
-			<?php echo $this->fetch( '_navigation' ) ?>
-		<?php endif ?>
-    </nav>
+    
     <main>
         <section class="content">
 			<?php echo $this->section( 'content' ) ?>
@@ -32,9 +37,9 @@
 			<?php echo $this->section( 'sidebar' ) ?>
         </aside>
     </main>
-    <footer>
+    <!-- <footer>
         &copy; <?php echo date('d m Y')?>
-    </footer>
+    </footer> -->
 </div>
 <?php $this->start( 'javascript' ) ?>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
