@@ -7,8 +7,14 @@
 
 <h1>Welkom</h1>
 
-<p>Dit is de start van jullie project website!</p>
+<p>Transformers Commnity!</p>
 
+<?php $this->start('footer')?>
+
+<?php $this->stop()?>
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 
 
 
