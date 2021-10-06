@@ -18,3 +18,7 @@ require_once get_config('PRIVATE') . '/routes.php';
  * Als de URL bestaat wordt de juiste code aangeroepen die er bij hoort (de controller)
  */
 SimpleRouter::start();
+
+
+?>
+
