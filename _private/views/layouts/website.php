@@ -33,6 +33,10 @@
         <section class="content">
 			<?php echo $this->section( 'content' ) ?>
         </section>
+        <h2>Life sucks <span id="sometimes">sometimes.</span> </h2>
+        <p>Maar je staat er niet alleen voor <br>
+        De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
+        <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
         <aside>
 			<?php echo $this->section( 'sidebar' ) ?>
         </aside>

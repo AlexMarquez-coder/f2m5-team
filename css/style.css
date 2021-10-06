@@ -50,12 +50,20 @@ ul{
     float: left;
   }
 
-
 .active{
-    float: right;
-    margin: 35px 25px;
     color: #251605;
     font-size: large;
+}
+
+#mainmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 25px;
+}
+
+#mainmenu li{
+    margin-left: 45px;
 }
 
 .active:hover{
@@ -64,10 +72,33 @@ ul{
     color: #1E11A0;
 }
 
-nav{
+#aanmeldknop{
+    background-color: #FE8D0D;
+    margin-right: 20px;
+    margin-top: -3px;
+    border-radius: 6px;
+}
+
+h2{
+    font-weight: 900;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+}
+
+h2, p{
+    text-align: left;
+    /* margin-left: 100px; */
+    color: #F4FAFF;
+}
+
+#sometimes{
+    color: #FE8D0D;
+}
+
+/* nav{
     text-align: right;
     height: 80px;
-}
+} */
 
 label{
     margin: 0 40px 0 0;
@@ -82,13 +113,14 @@ label{
     display: none;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 865px){
     label{
         display: block;
         cursor: pointer;
         margin-top: 10px;
         width: 26px;
-        float: right; 
+        float: right;
+        
     }
     .menu{
         text-align: center;
@@ -98,16 +130,34 @@ label{
         display: none;
     }
 
+    #mainmenu{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        padding-top: 0px;
+        align-items: inherit;
+    } 
+    
+    #mainmenu li{
+        margin-left: 0px;
+        text-align: center;
+    }
+
     .active{
         display: block;
         margin: 0;
-        padding: 10px;
-        border: solid 2px #FE8D0D;
+        padding: 8px;
+        border-bottom: solid 4px #FE8D0D;
         float: none;
-        color: #F4FAFF;
+        font-size: 20px;
     }
-    .active:hover{
-        color: #F4FAFF;
+    #aanmeldknop{
+        background-color: #FE8D0D;
+        padding: 2px;
+        margin-right: 0px; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 6px;
     }
     #toggle:checked + .menu{
         display: block;
