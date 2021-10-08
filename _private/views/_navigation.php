@@ -12,7 +12,7 @@
         <a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active "<?php endif ?>>Contact</a>
     </li>
     <li>
-      <a class="menu-btn" href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Aanmelden</a>
+      <button id="aanmeldknop"><a  href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Aanmelden</a></button> 
     </li>
 </ul>
 

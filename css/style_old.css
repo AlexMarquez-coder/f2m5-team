@@ -66,7 +66,6 @@ h2, p{
 }
 
 
-
 #mainmenu{
     display: flex;
     flex-direction: row;
@@ -89,10 +88,10 @@ a:hover{
     color: #1E11A0;
 }
 
-.menu-btn{
+#aanmeldknop{
     background-color: #FE8D0D;
     margin-right: 20px;
-    margin-top: -3px;
+    margin-top: -5px;
     border-radius: 6px;
     padding: 6px;
     border:  solid 2px #251605;
@@ -110,7 +109,7 @@ label{
     label{
         display: block;
         cursor: pointer;
-        margin-top: 30px;
+        margin-top: 5px;
         width: 26px;
         float: right;
         
@@ -135,7 +134,7 @@ label{
         text-align: center;
     }
 
-    .active{
+    a{
         display: block;
         margin: 0;
         padding: 8px;
