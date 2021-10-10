@@ -12,6 +12,27 @@ namespace Website\Controllers;
  */
 class WebsiteController {
 
+	public function contact() {
+
+		$template_engine = get_template_engine();
+		echo $template_engine->render('contact');
+
+	}
+
+	public function over() {
+
+		$template_engine = get_template_engine();
+		echo $template_engine->render('over');
+
+	}
+
+	public function login() {
+
+		$template_engine = get_template_engine();
+		echo $template_engine->render('login');
+
+	}
+
 	public function home() {
 
 		$template_engine = get_template_engine();
