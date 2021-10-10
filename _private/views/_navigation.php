@@ -3,7 +3,7 @@
         <a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Home</a>
     </li>
     <li>
-        <a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> class="active"<?php endif ?>>registreren</a>
+        <a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> class="active"<?php endif ?>>Registreren</a>
     </li>
     <li>
         <a href="<?php echo url( 'login' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Login</a>
