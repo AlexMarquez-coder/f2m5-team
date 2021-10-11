@@ -1,6 +1,26 @@
+<<<<<<< HEAD
 <nav id="mainmenu" class="flex items-center justify-between flex-wrap bg-grey-darkest p-6 fixed w-full z-10 pin-t">
 	<div class="flex items-center flex-no-shrink text-white mr-6">
 	</div>
+=======
+<ul id="mainmenu">
+    <li>
+        <a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Home</a>
+    </li>
+    <li>
+        <a href="<?php echo url( 'login' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Login</a>
+    </li>
+    <li>
+        <a href="<?php echo url( 'over' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Over ons</a>
+    </li>
+    <li>
+        <a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active "<?php endif ?>>Contact</a>
+    </li>
+    <li>
+      <button id="aanmeldknop"><a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Registreren</a></button> 
+    </li>
+</ul>
+>>>>>>> 6dfb1015eeb363564ac4830407a678234ac7edf7
 
 	<div class="block lg:hidden">
 		<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-grey border-grey-dark hover:text-white hover:border-white">

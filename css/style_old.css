@@ -66,7 +66,7 @@ h2, p{
 
 
 #mainmenu{
-    display: flex;
+    display: flex; 
     flex-direction: row;
     justify-content: right;
     padding-top: 25px;
@@ -96,7 +96,6 @@ a:hover{
     border:  solid 2px #251605;
 }
 
-
 label{
     display: none;
 }
@@ -104,6 +103,10 @@ label{
     display: none;
 } */
 
+#email, #wachtwoord{
+    width: 750px;
+    margin: auto;
+}
 @media screen and (max-width: 865px){
     label{
         display: block;
@@ -111,8 +114,8 @@ label{
         margin-top: 5px;
         width: 26px;
         float: right;
-        
     }
+    
     .menu{
         text-align: center;
         width: 100%;
@@ -131,7 +134,12 @@ label{
     /* #mainmenu li{
         margin-left: 0px;
         text-align: center;
+<<<<<<< HEAD
     } */
+=======
+        
+    }
+>>>>>>> 6dfb1015eeb363564ac4830407a678234ac7edf7
 
     /* a{
         display: block;
@@ -140,7 +148,12 @@ label{
         border-bottom: solid 4px #FE8D0D;
         float: none;
         font-size: 20px;
+<<<<<<< HEAD
     } */
+=======
+        color: #F4FAFF;
+    }
+>>>>>>> 6dfb1015eeb363564ac4830407a678234ac7edf7
 
     /* #aanmeldknop{
         background-color: #FE8D0D;
@@ -154,4 +167,10 @@ label{
     #toggle:checked + .menu{
         display: block;
     }
-}
+    #email, #wachtwoord{
+        width: 420px;
+        margin: auto;
+    }
+
+} 
+
