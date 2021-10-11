@@ -1,4 +1,4 @@
-/* Kleuren thema's
+/*Kleuren thema's
 Orange: #FE8D0D
 Wit: #F4FAFF
 Zwart: #251605
@@ -19,7 +19,6 @@ header{
     background-color: #F4FAFF;
     margin-bottom: 20px;
     width: 100%;
-    border: solid 2.5px #FE8D0D;
     z-index: 12;
 }
 
@@ -52,13 +51,13 @@ ul, li{
 
 h2{
     font-weight: 900;
-    /* margin-top: 50px;
-    margin-left: 50px; */
+    margin-top: 50px;
+    margin-left: 50px; 
 }
 
 h2, p{
     text-align: left;
-    /* margin-left: 100px; */
+    margin-left: 100px; 
     color: #F4FAFF;
 }
 #sometimes{
@@ -75,7 +74,7 @@ h2, p{
 
 #mainmenu li{ 
     margin-left: 45px;
-}
+} */
 
 a{
     color: #251605;
@@ -88,7 +87,7 @@ a:hover{
     color: #1E11A0;
 }
 
-#aanmeldknop{
+/* #aanmeldknop{
     background-color: #FE8D0D;
     margin-right: 20px;
     margin-top: -5px;
@@ -103,7 +102,7 @@ label{
 }
 #toggle {
     display: none;
-}
+} */
 
 @media screen and (max-width: 865px){
     label{
@@ -120,30 +119,30 @@ label{
         /* margin-top: 14px; */
         padding-top: 85px;
         display: none;
-    }
+    } 
 
-    #mainmenu{
+    /* #mainmenu{
         display: flex; 
         flex-direction: column; 
         justify-content: center;
         padding-top: 0px;
     } 
-    
-    #mainmenu li{
+     */
+    /* #mainmenu li{
         margin-left: 0px;
         text-align: center;
-    }
+    } */
 
-    a{
+    /* a{
         display: block;
         margin: 0;
         padding: 8px;
         border-bottom: solid 4px #FE8D0D;
         float: none;
         font-size: 20px;
-    }
+    } */
 
-    #aanmeldknop{
+    /* #aanmeldknop{
         background-color: #FE8D0D;
         padding: 2px;
         margin-right: 0px; 
