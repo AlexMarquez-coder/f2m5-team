@@ -19,21 +19,23 @@ header{
     background-color: #F4FAFF;
     margin-bottom: 20px;
     width: 100%;
-    z-index: 12;
+    /* z-index: 12; */
+    /* grid-area: header; */
 }
 
 
 .heleContainer{
-    display: grid;
-    grid-template-columns: 1fr ;
-    grid-template-rows: 0.2fr ;
-    grid-template-areas:"";
+    /* display: grid;
+    grid-template-columns: 100% 1fr 1fr;
+    grid-template-rows:  1fr 1fr;     
+    grid-template-areas:"header  header"
+                        "flexbox flexbox "
+                        "main   main";
+                       */
     }
 
 main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 20px;
+    /* grid-area: main; */
     text-align: center;
 }
 
@@ -60,10 +62,11 @@ h2, p{
     margin-left: 100px; 
     color: #F4FAFF;
 }
+
 #sometimes{
     color: #FE8D0D;
+    grid-area: sometimes;
 }
-
 
 #mainmenu{
     display: flex; 
@@ -74,7 +77,7 @@ h2, p{
 
 #mainmenu li{ 
     margin-left: 45px;
-} */
+} 
 
 a{
     color: #251605;
@@ -124,20 +127,20 @@ label{
         display: none;
     } 
 
-    /* #mainmenu{
+     #mainmenu{
         display: flex; 
         flex-direction: column; 
         justify-content: center;
         padding-top: 0px;
     } 
-     */
-    /* #mainmenu li{
+ 
+     #mainmenu li{
         margin-left: 0px;
         text-align: center;
         
     }
 
-    /* a{
+    a{
         display: block;
         margin: 0;
         padding: 8px;
@@ -147,7 +150,7 @@ label{
         color: #F4FAFF;
     }
 
-    /* #aanmeldknop{
+     #aanmeldknop{
         background-color: #FE8D0D;
         padding: 2px;
         margin-right: 0px; 
@@ -166,3 +169,65 @@ label{
 
 } 
 
+/* Foto slider styles */
+#Fotoslider {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 420ms;
+    transition-timing-function: ease-out;
+}
+
+.foto{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#viewport {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#flexbox{
+    margin-left: 0px;
+    margin-top: 100px;
+    /* grid-area: flexbox; */
+}
+
+#controls{
+    position: absolute;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    margin-top: 160px;
+}
+
+button{
+    background-color: #F4FAFF; 
+    padding: 6px 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: medium; 
+    opacity: 0.7;
+  }
+  
+button:hover {
+      background-color: #FE8D0D;
+      color: #F4FAFF;
+      opacity: 1;
+      
+}
+  
+button:active {
+      background-color: #FE4E02;
+      box-shadow: 0 2px rgb(0, 0, 0);
+      border-radius: 30px;
+      transform: translateY(10px);
+}
