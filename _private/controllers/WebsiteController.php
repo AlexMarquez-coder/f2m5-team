@@ -19,10 +19,10 @@ class WebsiteController {
 
 	}
 
-	public function over() {
+	public function over_ons() {
 
 		$template_engine = get_template_engine();
-		echo $template_engine->render('over');
+		echo $template_engine->render('over_ons');
 
 	}
 

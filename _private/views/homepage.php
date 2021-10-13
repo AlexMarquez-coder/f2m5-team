@@ -11,7 +11,11 @@
     De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
     <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
 
-<h1>Foto slider</h1>
+    <h2>Praat over dingen die je eerder nergens kwijt kon.</h2>
+    <p> In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. <br> 
+        Hier helpen en steunen we elkaar. <br>
+        Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
+
 <script>
 let fotonummer, fotobreedte, aantalfotos, fotoslider;
         function setupFotoslider() 

@@ -17,7 +17,7 @@
 				<a  href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active" <?php endif ?>>Register</a>
 			</li>
 			<li class="mr-3">
-				<a href="?php echo url( 'over' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active"  <?php endif ?>>Over ons</a>
+				<a href="<?php echo url( 'over_ons' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active"  <?php endif ?>>Over ons</a>
 			</li>
 			<li class="mr-3">
 				<a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active" <?php endif ?>>Contact</a>
