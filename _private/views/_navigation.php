@@ -12,13 +12,13 @@
     <li>
         <a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( 'home' ) ): ?> class="active"<?php endif ?>>Contact</a>
     </li>
+	<li>
+        <a href="<?php echo url( 'registren' ) ?>"<?php if ( current_route_is( 'registeren' ) ): ?> class="active"<?php endif ?>>Registeren</a>
+    </li>
     <li>
        <button id="aanmeldknop"><a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( 'home' ) ): ?> class="active"<?php endif ?>>Aanmelden</a></button> 
     </li>
-</ul>
-    <li>
-        <a href="<?php echo url( 'registren' ) ?>"<?php if ( current_route_is( 'registeren' ) ): ?> class="active"<?php endif ?>>Registeren</a>
-    </li>
+
 </ul>
 
 
