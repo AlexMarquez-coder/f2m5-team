@@ -175863,3 +175863,13 @@ label{
         display: block;
     }
 }
+    @media screen and (max-width: 865px){
+
+      #nav-toggle{
+        display: block;
+        cursor: pointer;
+        margin-top: 5px;
+        width: 26px;
+        float: right;
+      }
+    }

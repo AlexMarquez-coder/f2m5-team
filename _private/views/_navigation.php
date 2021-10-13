@@ -1,5 +1,5 @@
 
-<nav id="mainmenu" class="flex items-center justify-between flex-wrap bg-grey-darkest p-6 fixed w-full z-10 pin-t">
+<ul id="mainmenu" class="flex items-center justify-between flex-wrap bg-grey-darkest p-6 fixed w-full z-10 pin-t">
 	<div class="flex items-center flex-no-shrink text-white mr-6">
 	</div>
 	<div class="block lg:hidden">
@@ -11,23 +11,24 @@
 	<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block pt-6 lg:pt-0" id="nav-content">
 		<ul class="list-reset lg:flex justify-end flex-1 items-center">
 			<li class="mr-3">
-				<a class="inline-block py-2 px-4 text-white no-underline" href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?>class="inline-block py-2 px-4 text-white no-underline"<?php endif ?>>Home</a>
+				<a class="inline-block py-2 px-4 text-white no-underline" href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?>class="inline-block py-2 px-4 text-white no-underline active"<?php endif ?>>Home</a>
 			</li>
 			<li class="mr-3">
-				<a  href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" <?php endif ?>>Register</a>
+				<a  href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active" <?php endif ?>>Register</a>
 			</li>
 			<li class="mr-3">
-				<a href="?php echo url( 'over' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4"  <?php endif ?>>About</a>
+				<a href="?php echo url( 'over' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active"  <?php endif ?>>Over ons</a>
 			</li>
 			<li class="mr-3">
-				<a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4" <?php endif ?>>Contact</a>
+				<a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active" <?php endif ?>>Contact</a>
 			</li>
 			<li class="mr-3">
-				<a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4"  <?php endif ?>>Login</a>
+				<a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="inline-block text-grey-dark no-underline hover:text-grey-lighter hover:text-underline py-2 px-4 active"  <?php endif ?>>aanmelden
+                </a>
 			</li>
 		</ul>
 	</div>
-</nav>
+</ul>
 
 <script>
 	//Javascript to toggle the menu
