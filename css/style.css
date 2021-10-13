@@ -1,11 +1,3 @@
-/*Kleuren thema's
-Orange: #FE8D0D
-Wit: #F4FAFF
-Zwart: #251605
-Donker-orange: #FE4E02
-Licht-blauw: #5626CA
-Donker-blauw: #1E11A0
-*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 body {
     font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
@@ -25,8 +17,8 @@ header{
 
 
 .heleContainer{
-    /* display: grid;
-    grid-template-columns: 100% 1fr 1fr;
+    display: grid;
+    /*grid-template-columns: 100% 1fr 1fr;
     grid-template-rows:  1fr 1fr;     
     grid-template-areas:"header  header"
                         "flexbox flexbox "
@@ -98,7 +90,6 @@ a:hover{
     padding: 6px;
     border:  solid 2px #251605;
 }
-
 label{
     display: none;
 }
