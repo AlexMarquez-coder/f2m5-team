@@ -111,7 +111,7 @@ label{
     label{
         display: block;
         cursor: pointer;
-        margin-top: 30px;
+        margin-top: 12px;
         width: 35px;
         float: right;
     }
@@ -164,12 +164,13 @@ label{
         margin: auto;
     }
     #logo{
-        visibility: hidden;
-        height: 0px;
+        /* visibility: hidden; */
+        /* height: 0px;
         width: 0px;
-        padding: 0px;
+        padding: 0px; */
             
     }
+
 
 } 
 
@@ -235,56 +236,3 @@ label{
       border-radius: 30px;
       transform: translateY(10px);
 }
-
-@media screen and (max-width: 865px){
-nav-toggle{
-        display: block;
-        cursor: pointer;
-        margin-top: 5px;
-        width: 26px;
-        float: right;
-        
-    } 
-    /* .menu{
-        text-align: center;
-        width: 100%;
-         margin-top: 14px; 
-        padding-top: 85px;
-        display: none;
-    } */
-} 
-
-    /* #mainmenu{
-        display: flex; 
-        flex-direction: column; 
-        justify-content: center;
-        padding-top: 0px;
-    } 
-     */
-    /* #mainmenu li{
-        margin-left: 0px;
-        text-align: center;
-    } */
-
-    /* a{
-        display: block;
-        margin: 0;
-        padding: 8px;
-        border-bottom: solid 4px #FE8D0D;
-        float: none;
-        font-size: 20px;
-    } */
-
-    /* #aanmeldknop{
-        background-color: #FE8D0D;
-        padding: 2px;
-        margin-right: 0px; 
-        margin-top: 15px;
-        margin-bottom: 15px;
-        border-radius: 6px;
-    }
-    
-    #toggle:checked + .menu{
-        display: block;
-    }
-    */
