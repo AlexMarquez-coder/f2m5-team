@@ -1,4 +1,5 @@
-<img src="/Logo simpel.webp" id="logo"> </img>
+<a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( 'register.form' ) ): ?> <?php endif ?>>
+<img src="/Logo simpel.webp" id="logo" > </img> </a>
 <ul id="mainmenu">
 
 	<div>
