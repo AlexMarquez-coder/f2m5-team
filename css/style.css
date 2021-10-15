@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @tailwinds base;
 
 .container{
@@ -175756,6 +175757,8 @@ Donker-orange: #FE4E02
 Licht-blauw: #5626CA
 Donker-blauw: #1E11A0
 */
+=======
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 body {
     font-family: "Nunito", "Open Sans", Arial, Helvetica, sans-serif;
@@ -175769,13 +175772,21 @@ header{
     background-color: #F4FAFF;
     margin-bottom: 20px;
     width: 100%;
+<<<<<<< HEAD
     border: solid 2.5px #FE8D0D;
     z-index: 12;
+=======
+    padding: 5px;
+   /* height: 100%;*/
+    /* z-index: 12; */
+    /* grid-area: header; */
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
 }
 
 
 .heleContainer{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 1fr ;
     grid-template-rows: 0.2fr ;
     grid-template-areas:"";
@@ -175789,11 +175800,36 @@ main {
 }
 
 ul{
+=======
+    /*grid-template-columns: 100% 1fr 1fr;
+    grid-template-rows:  1fr 1fr;     
+    grid-template-areas:"header  header"
+                        "flexbox flexbox "
+                        "main   main";
+                       */
+    }
+
+main {
+    /* grid-area: main; */
+    text-align: center;
+}
+
+#logo{
+    width: 250px;
+    padding: 15px;
+    float: left;
+    height: auto;
+    
+  }
+
+ul, li{
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
+<<<<<<< HEAD
 #logo{
     width: 300px;
     padding: 5px;
@@ -175804,16 +175840,52 @@ ul{
 .active{
     float: right;
     margin: 35px 25px;
+=======
+h2{
+    font-weight: 900;
+    margin-top: 50px;
+    margin-left: 50px; 
+}
+
+h2, p{
+    text-align: left;
+    margin-left: 100px; 
+    color: #F4FAFF;
+}
+
+#sometimes{
+    color: #FE8D0D;
+    grid-area: sometimes;
+}
+
+#mainmenu{
+    display: flex; 
+    flex-direction: row;
+    justify-content: right;
+    padding-top: 25px;
+}
+
+#mainmenu li{ 
+    margin-left: 45px;
+} 
+
+a{
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
     color: #251605;
     font-size: large;
 }
 
+<<<<<<< HEAD
 .active:hover{
+=======
+a:hover{
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
     text-decoration: underline;
     text-decoration-color: #FE8D0D;
     color: #1E11A0;
 }
 
+<<<<<<< HEAD
 nav{
     text-align: right;
     height: 80px;
@@ -175840,12 +175912,45 @@ label{
         width: 26px;
         float: right; 
     }
+=======
+#aanmeldknop{
+    background-color: #FE8D0D;
+    margin-right: 20px;
+    margin-top: -5px;
+    border-radius: 6px;
+    padding: 2px;
+    border:  solid 2px #251605;
+}
+label{
+    display: none;
+}
+#toggle {
+    display: none;
+}
+
+#email, #wachtwoord{
+    width: 750px;
+    margin: auto;
+}
+
+
+@media screen and (max-width: 865px){
+    label{
+        display: block;
+        cursor: pointer;
+        margin-top: 30px;
+        width: 35px;
+        float: right;
+    }
+    
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
     .menu{
         text-align: center;
         width: 100%;
         /* margin-top: 14px; */
         padding-top: 85px;
         display: none;
+<<<<<<< HEAD
     }
 
     .active{
@@ -175866,10 +175971,176 @@ label{
     @media screen and (max-width: 865px){
 
       #nav-toggle{
+=======
+    } 
+
+     #mainmenu{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        padding-top: 0px;
+    } 
+ 
+     #mainmenu li{
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+
+    a{
+        display: block;
+        margin: 0;
+        padding: 8px;
+        border-bottom: solid 4px #FE8D0D;
+        float: none;
+        font-size: 20px;
+        color: #251605;
+    }
+
+     #aanmeldknop{
+        background-color: #FE8D0D;
+        padding: -10px;
+        margin-right: 0px; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+    }
+    #email, #wachtwoord{
+        width: 420px;
+        margin: auto;
+    }
+    #logo{
+        visibility: hidden;
+        height: 0px;
+        width: 0px;
+        padding: 0px;
+            
+    }
+
+} 
+
+/* Foto slider styles */
+#Fotoslider {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    transition-property: left;
+    transition-duration: 420ms;
+    transition-timing-function: ease-out;
+}
+
+.foto{
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#viewport {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+}
+
+#flexbox{
+    margin-left: 0px;
+    margin-top: 100px;
+    /* grid-area: flexbox; */
+}
+
+#controls{
+    position: absolute;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between; 
+    margin-top: 160px;
+}
+
+.vorige, .volgende{
+    background-color: #F4FAFF; 
+    padding: 6px 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: medium; 
+    opacity: 0.7;
+  }
+  
+.vorige,.volgende:hover {
+      background-color: #FE8D0D;
+      color: #F4FAFF;
+      opacity: 1;
+      
+}
+  
+.vorige,.volgende:active {
+      background-color: #FE4E02;
+      box-shadow: 0 2px rgb(0, 0, 0);
+      border-radius: 30px;
+      transform: translateY(10px);
+}
+
+@media screen and (max-width: 865px){
+nav-toggle{
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
         display: block;
         cursor: pointer;
         margin-top: 5px;
         width: 26px;
         float: right;
+<<<<<<< HEAD
       }
     }
+=======
+        
+    } 
+    /* .menu{
+        text-align: center;
+        width: 100%;
+         margin-top: 14px; 
+        padding-top: 85px;
+        display: none;
+    } */
+} 
+
+    /* #mainmenu{
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        padding-top: 0px;
+    } 
+     */
+    /* #mainmenu li{
+        margin-left: 0px;
+        text-align: center;
+    } */
+
+    /* a{
+        display: block;
+        margin: 0;
+        padding: 8px;
+        border-bottom: solid 4px #FE8D0D;
+        float: none;
+        font-size: 20px;
+    } */
+
+    /* #aanmeldknop{
+        background-color: #FE8D0D;
+        padding: 2px;
+        margin-right: 0px; 
+        margin-top: 15px;
+        margin-bottom: 15px;
+        border-radius: 6px;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+    }
+    */
+>>>>>>> b0487933f976196ccb81034c57b390d1cce7d1a1
