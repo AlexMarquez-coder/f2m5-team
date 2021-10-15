@@ -49,19 +49,15 @@ ul, li{
 
 h2{
     font-weight: 900;
-    margin-top: 50px;
-    margin-left: 50px; 
 }
 
 h2, p{
     text-align: left;
-    margin-left: 100px; 
     color: #F4FAFF;
 }
 
 #sometimes{
     color: #FE8D0D;
-    grid-area: sometimes;
 }
 
 #mainmenu{
