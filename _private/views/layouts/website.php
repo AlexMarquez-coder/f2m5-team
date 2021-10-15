@@ -28,7 +28,7 @@
                 <?php endif ?>
             </div>
         </nav>
-    </header>>
+    </header>
     
     <main>
         <section class="content">
