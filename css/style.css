@@ -38,7 +38,7 @@ main {
     padding: 15px;
     float: left;
     height: auto;
-    
+    z-index: 12;
   }
 
 ul, li{
