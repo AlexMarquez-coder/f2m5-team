@@ -15,11 +15,9 @@
 </head>
 <body>
 <div class="heleContainer">
-<header>
+    <header>
         <img src="../Logo/Logo simpel.webp" alt="" id="logo">
         <nav>
-            <label for="toggle">&#9776;</label>
-            <input type="checkbox" id="toggle">
             <div class="menu">
                 <?php if ( $this->section( 'navigation' ) ): ?>
                     <?php echo $this->section( 'navigation' ) ?>
@@ -28,7 +26,7 @@
                 <?php endif ?>
             </div>
         </nav>
-    </header>>
+    </header>
     
     <main>
         <section class="content">
