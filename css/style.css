@@ -47,13 +47,19 @@ ul, li{
     margin: 0;
 }
 
-h2{
+.homeTitel{
     font-weight: 900;
+    padding-top: 40px;
 }
 
-h2, p{
+.homeTitel, .homeTekst{
     text-align: left;
     color: #F4FAFF;
+    padding-left: 40px;
+    
+}
+.homeTekst{
+    
 }
 
 #sometimes{
@@ -87,7 +93,7 @@ a:hover{
     margin-right: 20px;
     margin-top: -5px;
     border-radius: 6px;
-    padding: 2px;
+    padding: 5px;
     border:  solid 2px #251605;
 }
 label{
@@ -221,7 +227,8 @@ label{
     border-radius: 20px;
     font-size: larger;
     grid-area: over_onsText;
-    padding: 20px;
+    text-align: left;
+    padding: 30px;
 }
 
 
@@ -235,7 +242,11 @@ label{
     display: flex;
     justify-content: space-evenly;
 }
-
+#over_onsTitel{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
 
 @media screen and (max-width: 1205px){
     #BGtext{
@@ -268,6 +279,11 @@ label{
         border-radius: 20px;
         font-size: medium;
     }
+
+    /* .slideshow-container{
+        float: none;
+        top: 0px;
+    } */
 }
 
 @media screen and (max-width: 405px){
