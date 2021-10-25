@@ -49,13 +49,19 @@ ul, li{
     margin: 0;
 }
 
-h2{
+.homeTitel{
     font-weight: 900;
+    padding-top: 40px;
 }
 
-h2, p{
+.homeTitel, .homeTekst{
     text-align: left;
     color: #F4FAFF;
+    padding-left: 40px;
+    
+}
+.homeTekst{
+    
 }
 
 #sometimes{
@@ -89,7 +95,7 @@ a:hover{
     margin-right: 20px;
     margin-top: -5px;
     border-radius: 6px;
-    padding: 2px;
+    padding: 5px;
     border:  solid 2px #251605;
 }
 label{
@@ -175,68 +181,6 @@ footer{
 
 } 
 
-/* Foto slider styles */
-/* #Fotoslider {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    left: 0;
-    transition-property: left;
-    transition-duration: 420ms;
-    transition-timing-function: ease-out;
-}
-
-.foto{
-    width: 600px;
-    height: 400px;
-    overflow: hidden; */
-/* }
-
-#viewport {
-    position: relative;
-    width: 600px;
-    height: 400px;
-    overflow: hidden;
-}
-
-#flexbox{
-    margin-left: 0px;
-    margin-top: 100px;
-    /* grid-area: flexbox; */
-/* }
-
-#controls{
-    position: absolute;
-    left: 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between; 
-    margin-top: 160px;
-}
-
-.vorige, .volgende{
-    background-color: #F4FAFF; 
-    padding: 6px 12px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    font-size: medium; 
-    opacity: 0.7;
-  }
-  
-.vorige,.volgende:hover {
-      background-color: #FE8D0D;
-      color: #F4FAFF;
-      opacity: 1;
-      
-}
-  
-.vorige,.volgende:active {
-      background-color: #FE4E02;
-      box-shadow: 0 2px rgb(0, 0, 0);
-      border-radius: 30px;
-      transform: translateY(10px); */
-
       .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -265,3 +209,89 @@ footer{
 }
  
 
+/* Over ons pagina */
+#BGmissie{
+    margin-top: 80px;
+    border-radius: 20px;
+    width: 300px;
+    /* margin-left: 200px; */
+    
+}
+#missie{
+    color: #F4FAFF;
+    font-weight: bolder;
+    grid-area: missie;
+}
+#missie2{
+    text-align: center;
+    color: #F4FAFF;
+}
+
+#over_onsText{
+    background-color: #F4FAFF;
+    border-radius: 20px;
+    font-size: larger;
+    grid-area: over_onsText;
+    text-align: left;
+    padding: 30px;
+}
+
+
+#BGtext{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.1fr 1fr;     
+    grid-template-areas: "missie over_onsText"
+                         "missie over_onsText"; 
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#over_onsTitel{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 1205px){
+    #BGtext{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-auto-rows: 100px;
+        grid-template-areas: "missie missie "
+                             "over_onsText over_onsText"; 
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #missie{
+        color: #F4FAFF;
+        font-weight: bolder;
+        grid-area: missie;
+        justify-self: center;
+    }
+    
+    #BGmissie{
+        margin: 0;
+        border-radius: 20px;
+        width: auto;
+        text-align: center;
+    }
+
+    #over_onsText{
+        background-color: #F4FAFF;
+        border-radius: 20px;
+        font-size: medium;
+    }
+
+    /* .slideshow-container{
+        float: none;
+        top: 0px;
+    } */
+}
+
+@media screen and (max-width: 405px){
+
+
+}
