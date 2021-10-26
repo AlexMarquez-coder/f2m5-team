@@ -13,7 +13,7 @@
     </div>
         <div id="over_onsText">
             <h2 id="over_onsTitel">Weet jij wat je moet doen om <span id="sometimes">mentaal gezond</span>  te zijn? Nee? Dan ben je niet de enige. </h2><br>
-            Terwijl de meesten van ons wel weten wat je moet doen om fysiek gezond te zijn, <br>
+            Terwijl de meesten van ons wel weten wat je moet doen om fysiek gezond te zijn, <br>    
             leert niemand ons wat ervoor nodig om mentaal gezond te zijn.<br>
             Op school niet, thuis niet, op het werk niet. <br>
             Terwijl je mentale gezondheid essentieel is!<br>

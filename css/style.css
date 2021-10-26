@@ -22,7 +22,7 @@ header{
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-rows:  0.2fr 1fr 1fr;     
+    grid-template-rows:  0.2fr  0.2fr;     
     grid-template-areas:"header header"
                         "flexbox flexbox "
                         "main  main"
@@ -40,7 +40,7 @@ main {
     padding: 15px;
     float: left;
     height: auto;
-    z-index: 12;
+    /* z-index: 12; */
   }
 
 ul, li{
@@ -239,13 +239,13 @@ footer{
 
 #BGtext{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 0.1fr 1fr;     
-    grid-template-areas: "missie over_onsText"
-                         "missie over_onsText"; 
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;     
+    grid-template-areas: "missie over_onsText over_onsText"
+                         "missie over_onsText over_onsText"; 
+    /* margin-top: -250px; */
+    padding-right: 40px ;
+    padding-left: 40px;
 }
 #over_onsTitel{
     text-align: center;
@@ -256,12 +256,11 @@ footer{
 @media screen and (max-width: 1205px){
     #BGtext{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        grid-auto-rows: 100px;
-        grid-template-areas: "missie missie "
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;  
+        grid-template-areas: "missie missie"
                              "over_onsText over_onsText"; 
-        margin-top: 50px;
+        /* margin-top: 50px; */
         text-align: center;
     }
 
@@ -273,7 +272,7 @@ footer{
     }
     
     #BGmissie{
-        margin: 0;
+        margin: 20px;
         border-radius: 20px;
         width: auto;
         text-align: center;
