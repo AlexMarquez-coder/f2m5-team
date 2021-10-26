@@ -14,22 +14,24 @@ header{
     padding: 5px;
    /* height: 100%;*/
     /* z-index: 12; */
-    /* grid-area: header; */
+    grid-area: header;
 }
 
 
 .heleContainer{
     display: grid;
-    /*grid-template-columns: 100% 1fr 1fr;
-    grid-template-rows:  1fr 1fr;     
-    grid-template-areas:"header  header"
+    height: 100vh;
+    width: 100vw;
+    grid-template-rows:  0.2fr 1fr 1fr;     
+    grid-template-areas:"header header"
                         "flexbox flexbox "
-                        "main   main";
-                       */
+                        "main  main"
+                        "footer footer";
+                       
     }
 
 main {
-    /* grid-area: main; */
+    grid-area: main; 
     text-align: center;
 }
 
@@ -106,6 +108,9 @@ label{
 #email, #wachtwoord{
     width: 750px;
     margin: auto;
+}
+footer{
+    grid-area: footer;
 }
 
 
