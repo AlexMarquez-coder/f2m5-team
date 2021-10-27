@@ -148,7 +148,7 @@ footer{
         display: block;
         margin: 0;
         padding: 8px;
-        border-bottom: solid 4px #FE8D0D;
+        /* border-bottom: solid 4px #FE8D0D; */
         float: none;
         font-size: 20px;
         color: #251605;

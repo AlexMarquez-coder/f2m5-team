@@ -9,9 +9,9 @@
 <div id="BGcontactpagetext">
     </div>
         <div id="contactText">
-            <h2 id="contactTitel">Contact en Informatie over ons</h2>
+            <h2 id="contactTitel">Contact </h2>
             <br>           
-            <div id="kopje1"><strong>Dan ben je bij ons op het juiste adres! </strong></div>
+            <!-- <div id="kopje1"><strong>Dan ben je bij ons op het juiste adres! </strong></div> -->
             Wij zijn een community van jongeren die allemaal met dit soort vragen worstelen. 
             <br>
             Binnen de Transformers Community delen we onze ervaringen, steunen elkaar én leren van mekaar.
