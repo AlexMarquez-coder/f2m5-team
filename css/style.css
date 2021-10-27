@@ -18,6 +18,11 @@ header{
     grid-area: header;
 }
 
+#slideshow-container{
+    grid-area: slideshow;
+
+
+}
 
 .heleContainer{
     display: grid;
@@ -182,11 +187,11 @@ footer{
 
 } 
 
-      .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
+    .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    }
 
 .fade {
   -webkit-animation-name: fade;
