@@ -1,9 +1,9 @@
 <?php $this->layout('layouts::website');?>
-
-<h3>Inschrijven</h3>
+<div id="fullForm">
+<h3 id="sometimes">Inschrijven</h3>
 
 <p style="text-align: center;">Schrijf u snel in op de website om gebruik te maken van alle fantastische features.</p>
-<div id="fullForm">
+
 <form action="<?php echo url("register.handle")?>" method="POST" >
     <div class="form-group">
         <!-- <label for="email" class="form_titel">Email</label> -->
@@ -14,7 +14,7 @@
         <!-- <label for="wachtwoord" class="form_titel">Wachtwoord</label> -->
         <input type="password" name="wachtwoord" class="form-control" id="wachtwoord" placeholder="Wachtwoord">
     </div>
-    <button type="submit" class="btn btn-primary">Registreren</button>
+    <button type="submit" class="btn-btn-primary">Registreren</button>
 </div>
 </form>
 </html>
