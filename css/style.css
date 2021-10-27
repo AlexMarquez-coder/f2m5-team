@@ -264,6 +264,8 @@ footer{
     /* grid-area: contact; */
     text-align: left;
     padding: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 
@@ -363,6 +365,9 @@ text-align: center;
 
 
 @media screen and (max-width: 405px){
-
-
+    #email, #wachtwoord{
+            width: 320px;
+            margin: auto;
+    
+    }
 }

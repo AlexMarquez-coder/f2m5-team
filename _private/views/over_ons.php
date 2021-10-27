@@ -25,7 +25,7 @@
             We werken er naar toe om uit te groeien tot een sociale beweging van jongeren die elkaar helpt om mentaal weerbaar en <br>
             veerkrachtig te zijn.
         </div>
-</div>
+</div><br>
 
 <h3>Hier komen de icons voor de oprichters.</h3>
 <?php $this->start('footer')?>
