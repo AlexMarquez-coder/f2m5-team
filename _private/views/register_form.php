@@ -3,8 +3,8 @@
 <h3>Inschrijven</h3>
 
 <p style="text-align: center;">Schrijf u snel in op de website om gebruik te maken van alle fantastische features.</p>
-
-<form action="<?php echo url("register.handle")?>" method="POST">
+<div id="fullForm">
+<form action="<?php echo url("register.handle")?>" method="POST" >
     <div class="form-group">
         <!-- <label for="email" class="form_titel">Email</label> -->
         <input type="email" name="email" value="" class="form-control" id="email" aria-describedby="email" placeholder="Email">
@@ -15,5 +15,6 @@
         <input type="password" name="wachtwoord" class="form-control" id="wachtwoord" placeholder="Wachtwoord">
     </div>
     <button type="submit" class="btn btn-primary">Registreren</button>
+</div>
 </form>
 </html>

@@ -115,6 +115,16 @@ label{
     width: 750px;
     margin: auto;
 }
+
+#email:hover, #wachtwoord:hover{
+    border-color: #FE8D0D;
+    border-width: 3px;
+}
+#fullForm{
+    background-color: #F4FAFF;
+    border-radius: 20px;
+    padding: 30px;
+}
 footer{
     grid-area: footer;
 }
@@ -375,4 +385,5 @@ text-align: center;
             margin: auto;
     
     }
+    
 }
