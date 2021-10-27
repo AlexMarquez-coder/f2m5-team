@@ -9,28 +9,25 @@
 <div id="BGcontactpagetext">
     </div>
         <div id="contactText">
-            <h2 id="contactTitel">Contact </h2>
+            <h3 id="contactTitel">Samen staan we sterk. </h3>
             <br>           
-            <!-- <div id="kopje1"><strong>Dan ben je bij ons op het juiste adres! </strong></div> -->
-            Wij zijn een community van jongeren die allemaal met dit soort vragen worstelen. 
-            <br>
-            Binnen de Transformers Community delen we onze ervaringen, steunen elkaar én leren van mekaar.
-            <br>
-            De Transformers Community is een plek waar je écht jezelf mag zijn. 
-            <br>
-            Een plek waar je leert hoe je onzekerheden en tegenslagen omzet in kracht, 
-            <br>
-            en iets meer schijt hebt aan de mening van anderen ;-).
-            <br>
-            <br>
-            <div id="kopje2"><strong>Privacy</strong></div>
-            We zijn een besloten platform, 
-            wat betekent dat al jouw informatie binnen de community blijft 
-            <br>
-            en je data niet stiekem wordt doorverkocht. 
+            <div id="kopje1"><strong>Of jij nou een jongere bent, of een professional, 
+                <br>
+                we komen graag met je in contact!</strong></div>
+
+                <strong>Samen leren en elkaar versterken staat bij ons centraal</strong>
+                Heb jij een idee 
+                <br>
+                of vraag voor de Transformers Community? Zou je graag willen 
+                <br>
+                samenwerken? Of ben je gewoon benieuwd wat wij zoal doen? 
             <br>
             <br>
-            Note: Je kan je anoniem aanmelden door een andere naam te gebruiken dat je echte naam.
+            <!-- <div id="kopje2"><strong>Neem gerust contact met ons op, dat vinden we leuk!</strong></div> -->
+            <strong>Neem gerust contact met ons op, dat vinden we leuk!</strong>
+            Je kan je mail 
+            <br>
+            richten aan Iris, de oprichter.
             <br>
             <br>
         <div id="SM">
