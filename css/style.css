@@ -284,8 +284,7 @@ footer{
 
 #SM {
     display: flex;
-    justify-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 #kopje1{
 text-align: center;
