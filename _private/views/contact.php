@@ -37,6 +37,14 @@
             <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw">
                 <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50">
                 </div>
+
+            <a href="https://www.facebook.com/transformers.community">
+                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50">
+                </div>
+                
+            <a href="https://www.linkedin.com/company/transformerscommunity/">
+                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50">
+                </div>
         </div>
 </div>
 
