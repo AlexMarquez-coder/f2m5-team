@@ -9,40 +9,45 @@
 </head>
 
 <body>
-<div id="MainHome" style="display: flex;  flex-grow: 2;">
-  <div id="MainTekst" style="flex-grow: 4;">
-      <h2 class="homeTitel">Life sucks <span id="sometimes">sometimes.</span> </h2>
-    <p class="homeTekst">Maar je staat er niet alleen voor <br>
-    De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
-    <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
+<div id="MainHome">
+  <div>
+  <div class="item">
+        <h2 class="homeTitel ">Life sucks <span id="sometimes" class="item">sometimes.</span> </h2>
+      <p class="homeTekst ">Maar je staat er niet alleen voor <br>
+      De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
+      <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
 
-    <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
-    <p class="homeTekst"> In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. <br> 
-        Hier helpen en steunen we elkaar. <br>
-        Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
+    
 
+    <div class="slideshow-container " style="float: right;"  >
 
-    <div class="slideshow-container" style="flex-grow: 4;" >
-
-      <div class="mySlides fade">
+      <div class="mySlides fade item">
         <img src="/images/elwin.png" style="width:50%">
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade item">
         <img src="/images/Lisa.png" style="width:50%">
       </div>
 
-      <div class="mySlides fade">
+      <div class="mySlides fade item">
         <img src="/images/yasmine.png" style="width:50%">
       </div>
 
       </div>
       <br>
 
-      <div style="text-align:center">
-        <span class="dot"></span> 
-        <span class="dot"></span> 
-        <span class="dot"></span> 
+      <div class="item" style="text-align:center">
+        <span class="dot item"></span> 
+        <span class="dot item"></span> 
+        <span class="dot item"></span> 
+    </div>
+  </div>
+    <div class="tekstHome_2">
+      <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
+      <p class="homeTekst"> In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. <br> 
+        Hier helpen en steunen we elkaar. <br>
+        Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
+
     </div>
 
   </div>
