@@ -5,7 +5,13 @@
 
 <?php $this->stop()?>
 
-    <h2 class="homeTitel">Life sucks <span id="sometimes">sometimes.</span> </h2>
+
+</head>
+
+<body>
+<div id="MainHome" style="display: flex;  flex-grow: 2;">
+  <div id="MainTekst" style="flex-grow: 4;">
+      <h2 class="homeTitel">Life sucks <span id="sometimes">sometimes.</span> </h2>
     <p class="homeTekst">Maar je staat er niet alleen voor <br>
     De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
     <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
@@ -15,32 +21,33 @@
         Hier helpen en steunen we elkaar. <br>
         Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
 
-</head>
 
-<body>
+    <div class="slideshow-container" style="flex-grow: 4;" >
 
-<div class="slideshow-container">
+      <div class="mySlides fade">
+        <img src="/images/elwin.png" style="width:50%">
+      </div>
 
-<div class="mySlides fade">
-  <img src="/images/elwin.png" style="width:50%">
+      <div class="mySlides fade">
+        <img src="/images/Lisa.png" style="width:50%">
+      </div>
+
+      <div class="mySlides fade">
+        <img src="/images/yasmine.png" style="width:50%">
+      </div>
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+
+  </div>
 </div>
 
-<div class="mySlides fade">
-  <img src="/images/Lisa.png" style="width:50%">
-</div>
-
-<div class="mySlides fade">
-  <img src="/images/yasmine.png" style="width:50%">
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
 
 
 <script>
