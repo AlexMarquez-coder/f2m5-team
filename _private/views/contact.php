@@ -6,23 +6,51 @@
 <?php $this->stop()?>
 
 
-<div id="BGtext">
-    <div id="BGmissie">
-        <h1 id="missie"></h1>
-        <h3 id="missie2"></h3>
+<div id="BGcontactpagetext">
     </div>
-        <div id="over_onsText">
-            <h2 id="over_onsTitel">
+        <div id="contactText">
+            <h3 id="contactTitel">Samen staan we sterk. </h3>
+            <br>           
+            <div id="kopje1"><strong>Of jij nou een jongere bent, of een professional, 
+                <br>
+                we komen graag met je in contact!</strong></div>
+
+                <strong>Samen leren en elkaar versterken staat bij ons centraal</strong>
+                Heb jij een idee 
+                <br>
+                of vraag voor de Transformers Community? Zou je graag willen 
+                <br>
+                samenwerken? Of ben je gewoon benieuwd wat wij zoal doen? 
+            <br>
+            <br>
+            <!-- <div id="kopje2"><strong>Neem gerust contact met ons op, dat vinden we leuk!</strong></div> -->
+            <strong>Neem gerust contact met ons op, dat vinden we leuk!</strong>
+            Je kan je mail 
+            <br>
+            richten aan Iris, de oprichter.
+            <br>
+            <br>
+        <div id="SM">
+            <a href="https://www.instagram.com/lifee.transformers/">
+                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50">
+
+            <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw">
+                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50">
+                </div>
         </div>
 </div>
 
-<h3>Hier komen de icons voor de oprichters.</h3>
+
 <?php $this->start('footer')?>
 
 <?php $this->stop()?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+
+
+
+
 
 
 

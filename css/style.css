@@ -4,6 +4,7 @@ body {
     height: 100vh;
     margin: 0;
     background-image: linear-gradient(#1E11A0, #ba9ffa);
+    /* background-repeat: no-repeat; */
 }
 
 
@@ -27,7 +28,7 @@ header{
     display: grid;
     height: 100vh;
     width: 100vw;
-    grid-template-rows:  0.2fr 1fr 1fr;     
+    grid-template-rows:  0.2fr  0.2fr;     
     grid-template-areas:"header header"
                         "flexbox flexbox "
                         "main  main"
@@ -45,7 +46,7 @@ main {
     padding: 15px;
     float: left;
     height: auto;
-    z-index: 12;
+    /* z-index: 12; */
   }
 
 ul, li{
@@ -153,7 +154,7 @@ footer{
         display: block;
         margin: 0;
         padding: 8px;
-        border-bottom: solid 4px #FE8D0D;
+        /* border-bottom: solid 4px #FE8D0D; */
         float: none;
         font-size: 20px;
         color: #251605;
@@ -244,29 +245,70 @@ footer{
 
 #BGtext{
     display: grid;
-    grid-template-columns: 0.5fr 1fr;
-    grid-template-rows: 0.1fr 1fr;     
-    grid-template-areas: "missie over_onsText"
-                         "missie over_onsText"; 
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-evenly;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;     
+    grid-template-areas: "missie over_onsText over_onsText"
+                         "missie over_onsText over_onsText"; 
+    /* margin-top: -250px; */
+    padding-right: 40px ;
+    padding-left: 40px;
 }
 #over_onsTitel{
     text-align: center;
     font-size: x-large;
     font-weight: 900;
 }
+/* Over ons pagina end */
+
+/* Contact pagina */
+
+#contactText{
+    background-color: #F4FAFF;
+    border-radius: 20px;
+    font-size: larger;
+    /* grid-area: contact; */
+    text-align: left;
+    padding: 30px;
+}
+
+
+#BGcontactpagetext{
+    display: grid;
+    grid-template-columns:  1fr;
+    grid-template-rows:  1fr;     
+    /* grid-template-areas: "missie over_onsText over_onsText"
+                         "missie over_onsText over_onsText";  */
+    /* margin-top: -250px; */
+    padding-right: 40px ;
+    padding-left: 40px;
+}
+#contactTitel{
+    text-align: center;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+#SM {
+    display: flex;
+    justify-content: space-evenly;
+}
+#kopje1{
+text-align: center;
+}
+#kopje2{
+    text-align: center;
+    }
+/* Contact pagina end */
 
 @media screen and (max-width: 1205px){
+    /* Over ons pagina */
     #BGtext{
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px;
-        grid-auto-rows: 100px;
-        grid-template-areas: "missie missie "
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;  
+        grid-template-areas: "missie missie"
                              "over_onsText over_onsText"; 
-        margin-top: 50px;
+        /* margin-top: 50px; */
         text-align: center;
     }
 
@@ -278,7 +320,7 @@ footer{
     }
     
     #BGmissie{
-        margin: 0;
+        margin: 20px;
         border-radius: 20px;
         width: auto;
         text-align: center;
@@ -294,7 +336,36 @@ footer{
         float: none;
         top: 0px;
     } */
+
+    /* Over ons pagina end */
+
+    /* contact pagina */
+
+    #BGcontactpagetext{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;  
+        grid-template-areas: "contactText contactText"; 
+        /* margin-top: 50px; */
+        text-align: center;
+    }
+
+    #contact{
+        color: #F4FAFF;
+        font-weight: bolder;
+        grid-area: missie;
+        justify-self: center;
+    }
+
+    #contactText{
+        background-color: #F4FAFF;
+        border-radius: 20px;
+        font-size: medium;
+    }
+    /* contact pagina end */
+    
 }
+
 
 @media screen and (max-width: 405px){
 
