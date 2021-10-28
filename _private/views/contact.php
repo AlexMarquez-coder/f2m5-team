@@ -31,18 +31,18 @@
             <br>
             <br>
         <div id="SM">
-            <a href="https://www.instagram.com/transformer.community/">
+            <a href="https://www.instagram.com/transformer.community/" target="_blank">
                 <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50">
 
-            <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw">
+            <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw" target="_blank">
                 <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50">
                 
 
-            <a href="https://www.facebook.com/transformers.community">
+            <a href="https://www.facebook.com/transformers.community" target="_blank">
                 <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50">
                 
                 
-            <a href="https://www.linkedin.com/company/transformerscommunity/">
+            <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank">
                 <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50">
                 
         </div>
