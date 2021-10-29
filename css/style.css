@@ -22,10 +22,9 @@ header{
 #MainHome{
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     height: 100vh;
     flex-grow: 2;
-
     grid-area: MainHome;
 }
 .item{
@@ -44,7 +43,7 @@ header{
 
 .heleContainer{
     display: grid;
-    height: 100vh;
+    height: auto;
     width: 100vw;     
     grid-template-areas:"header header"
                         "MainHome MainHome "

@@ -11,7 +11,7 @@
 <body>
 <div id="MainHome">
   <div>
-  <div class="item">
+    <div class="item">
         <h2 class="homeTitel ">Life sucks <span id="sometimes" class="item">sometimes.</span> </h2>
       <p class="homeTekst ">Maar je staat er niet alleen voor <br>
       De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
@@ -19,7 +19,7 @@
     
     
 
-    <div class="slideshow-container " style="float: right;"  >
+      <div class="slideshow-container " style="float: right;"  >
 
       <div class="mySlides fade item">
         <img src="/images/elwin.png" style="width:50%">
@@ -33,7 +33,7 @@
         <img src="/images/yasmine.png" style="width:50%">
       </div>
 
-      </div>
+    </div>
       <br>
 
       <div class="item" style="text-align:center">
@@ -41,7 +41,6 @@
         <span class="dot item"></span> 
         <span class="dot item"></span> 
     </div>
-      
   </div>
     <button class="item button" >Naar Community</button>
     <div class="tekstHome_2">
@@ -51,7 +50,7 @@
         Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
     
     </div>
-    <!-- <div class="item" >
+    <div class="item" >
       <h3 class="homeTitle">Wij zijn een groeiende beweging van jongeren die zich inzet voor mentale gezondheid.</h3>
       <p>We leven in een samenleving waar onvoldoende ruimte is voor onze mentale gezondheid. Daar willen wij samen verandering in brengen! We zijn een community van jongeren die ervaringen en tips uitwisselt op het gebied van mentale gezondheid en persoonlijke ontwikkeling. Zo creëren we meer openheid en helpen we elkaar om te groeien.</p>
     </div> -->
