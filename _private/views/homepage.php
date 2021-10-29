@@ -16,7 +16,7 @@
       <p class="homeTekst ">Maar je staat er niet alleen voor <br>
       De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht. 
       <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.</p>
-
+    
     
 
     <div class="slideshow-container " style="float: right;"  >
@@ -41,15 +41,20 @@
         <span class="dot item"></span> 
         <span class="dot item"></span> 
     </div>
+      
   </div>
+    <button class="item button" >Naar Community</button>
     <div class="tekstHome_2">
       <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
       <p class="homeTekst"> In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. <br> 
         Hier helpen en steunen we elkaar. <br>
         Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
-
+    
     </div>
-
+    <!-- <div class="item" >
+      <h3 class="homeTitle">Wij zijn een groeiende beweging van jongeren die zich inzet voor mentale gezondheid.</h3>
+      <p>We leven in een samenleving waar onvoldoende ruimte is voor onze mentale gezondheid. Daar willen wij samen verandering in brengen! We zijn een community van jongeren die ervaringen en tips uitwisselt op het gebied van mentale gezondheid en persoonlijke ontwikkeling. Zo creëren we meer openheid en helpen we elkaar om te groeien.</p>
+    </div> -->
   </div>
 </div>
 

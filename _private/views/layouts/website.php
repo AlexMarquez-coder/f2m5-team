@@ -41,8 +41,9 @@
     </main>
 
 
-    <!-- <footer>
-        &copy; <?php echo date('d m Y')?>
+ <!-- <footer>
+            /**/
+           
     </footer> -->
 </div>
 <?php $this->start( 'javascript' ) ?>
