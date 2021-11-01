@@ -295,6 +295,15 @@ footer{
     font-size: x-large;
     font-weight: 900;
 }
+
+.oprichters{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
 /* Over ons pagina end */
 
 /* Contact pagina */

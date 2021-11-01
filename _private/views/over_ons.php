@@ -28,7 +28,7 @@
 </div><br>
 
 <h3>Hier komen de icons voor de oprichters.</h3>
-<img src="" alt="foto" class="oprichters">
+<img src="" alt="foto" class="oprichters"> 
 
 <?php $this->start('footer')?>
 
