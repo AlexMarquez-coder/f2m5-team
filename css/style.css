@@ -289,6 +289,7 @@ footer{
     /* margin-top: -250px; */
     padding-right: 40px ;
     padding-left: 40px;
+    margin-top: 50px;
 }
 #over_onsTitel{
     text-align: center;
@@ -297,13 +298,36 @@ footer{
 }
 
 .oprichters{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    margin: 0 auto 20px auto;
-    display: block;
+    /* margin: 0 auto 20px auto; */
+    /* display: block; */
 }
+.oprichterContainer{
+    text-align: center;
+    /* max-width: 200px; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns:  repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 60px;
+}
+
+#optext{
+    font-weight: bold;
+}
+.naam{
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 /* Over ons pagina end */
 
 /* Contact pagina */
@@ -358,6 +382,7 @@ text-align: center;
                              "over_onsText over_onsText"; 
         /* margin-top: 50px; */
         text-align: center;
+        margin-top: 30px;
     }
 
     #missie{
@@ -378,6 +403,16 @@ text-align: center;
         background-color: #F4FAFF;
         border-radius: 20px;
         font-size: medium;
+    }
+
+    .oprichterContainer{
+        text-align: center;
+        /* max-width: 200px; */
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns:  repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 90px;
     }
 
     /* .slideshow-container{
@@ -427,3 +462,18 @@ text-align: center;
     
 }
 
+@media screen and (max-width: 705px){
+
+    .oprichterContainer{
+        text-align: center;
+        /* max-width: 200px; */
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns:  repeat(1, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding: 20px;
+    }
+    #BGtext{
+        margin-top: 20px;
+    }
+}
