@@ -56,3 +56,28 @@ function deleteTopic($topicToDelete){
 
 		return $statement->rowCount();
 }
+
+function getAllBlogPosts(){
+
+	$connection = dbConnect();
+	$sql = "SELECT * FROM `blogs`ORDER BY `created_at`DESC";
+	$statement  = $connection->query( $sql );
+
+	return $statement->fetchAll();
+
+}
+
+function getBlogPost($slug){
+
+	$connection = dbConnect();
+
+	$sql = "SELECT * FROM `blogs` WHERE slug = :slug";
+	$statement = $connection->prepare($sql);
+	$statement->execute(
+		[
+			'slug'=> $slug
+		]
+	);
+	
+	return $statement->fetch();
+}
