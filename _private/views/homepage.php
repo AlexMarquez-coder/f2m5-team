@@ -50,7 +50,7 @@
         
     
     </div>
-    <div style="color: white;" >
+    <div style="color: white;" id="tekst_3" >
       <h2 class="homeTitel" >Wij zijn een groeiende beweging van jongeren die zich inzet voor mentale gezondheid.</h3>
       <p class="homeTekst">We leven in een samenleving waar onvoldoende ruimte is voor onze mentale gezondheid.<br> Daar willen wij samen verandering in brengen! We zijn een community van jongeren die ervaringen en tips uitwisselt op het gebied van mentale gezondheid en persoonlijke ontwikkeling. <br>
       Zo creëren we meer openheid en helpen we elkaar om te groeien.</p>
