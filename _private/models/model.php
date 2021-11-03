@@ -53,7 +53,7 @@ function deleteTopic($topicToDelete){
 		$statement->execute([
 			'topic_id' => $topicToDelete
 		]);
-
+ 
 		return $statement->rowCount();
 }
 
@@ -64,7 +64,7 @@ function getAllBlogPosts(){
 	$statement  = $connection->query( $sql );
 
 	return $statement->fetchAll();
-
+ 
 }
 
 function getBlogPost($slug){

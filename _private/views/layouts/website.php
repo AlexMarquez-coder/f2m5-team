@@ -19,8 +19,9 @@
 <body>
 <div class="heleContainer">
     <header>
-        <img src="../Logo/Logo-simpel.webp" alt="" id="logo">
+        
         <nav>
+            <img src="../Logo/Logo-simpel.webp" alt="" id="logo">
             <label for="toggle">&#9776;</label>
             <input type="checkbox" id="toggle">
             <div class="menu">
