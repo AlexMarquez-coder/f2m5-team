@@ -1,10 +1,14 @@
 <?php $this->layout('layouts::website');?>
 
-<h1>Blog posts</h1>
+<div class="blogBG">
 
-<?php foreach($blog as $post):?>
+    <h1 class="blogPost">Blog posts</h1><br>
 
-    <h3><?php echo $post['titel']?></h3>
-    <a href="<?php echo url('blog.detail',['slug' => $post['slug']] );?>">Meer info</a>
+    <?php foreach($blog as $post):?>
 
-<?php endforeach;?>
+        <h3 class="blogHomeTitel"><?php echo $post['titel']?></h3>
+        <a href="<?php echo url('blog.detail',['slug' => $post['slug']] );?>">Bekijk post</a><hr>
+
+    <?php endforeach;?>
+
+</div>

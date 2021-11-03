@@ -220,15 +220,13 @@ footer{
         padding: 0px;
             
     }
-
-
 } 
 
-    .slideshow-container {
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
-    }
+}
 
 .fade {
   -webkit-animation-name: fade;
@@ -320,15 +318,18 @@ footer{
 }
 .naam{
     font-weight: bold;
+    color: #F4FAFF;
+    
 }
 
-
-
-
-
-
+/* .naam:hover{
+    border-bottom: solid 2px #FE8D0D;
+    
+} */
 
 /* Over ons pagina end */
+
+
 
 /* Contact pagina */
 
@@ -459,7 +460,13 @@ text-align: center;
             margin: auto;
     
     }
-    
+    .blogPost{
+        color: #FE8D0D;
+        font-weight: bolder;
+        font-size: 2.4em;
+        padding-bottom: 20px;
+        border-bottom: solid 4px #251605;
+    }
 }
 
 @media screen and (max-width: 705px){
@@ -477,3 +484,52 @@ text-align: center;
         margin-top: 20px;
     }
 }
+
+
+/* Blog styling */
+
+.blogBG{
+    background-color: #F4FAFF;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns:  repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    /* max-width: 800px; */
+}
+
+.blogBG2{
+    background-color: #F4FAFF;
+    border-radius: 20px;
+    font-size: larger;
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+}
+.blogPost{
+    color: #FE8D0D;
+    font-weight: bolder;
+    font-size: 2.4em;
+    
+}
+.blogHomeTitel{
+    font-weight: bold;
+}
+
+.blogTitel{
+    color: #FE8D0D;
+}
+
+.blogContent
+
+.blogDatum
+
+.blogUser
+
+
+/* Eind blog styling */

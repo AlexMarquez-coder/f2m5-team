@@ -1,17 +1,19 @@
 <?php $this->layout('layouts::website');?>
 
-<h1>
-    <?php echo $blog_post['titel']; ?>
-</h1>
+<div class="blogBG2">
+    <h1 class="blogTitel">
+        <?php echo $blog_post['titel']; ?>
+    </h1>
 
-<p>
-    <?php echo $blog_post['content']; ?>
-</p>
+    <p class="blogContent">
+        <?php echo $blog_post['content']; ?>
+    </p>
 
-<p>
-    <strong>Gemaakt op:</strong><?php echo $blog_post['created_at']; ?>
-</p>
+    <p class="blogDatum">
+        <strong>Gemaakt op:</strong><?php echo $blog_post['created_at']; ?>
+    </p>
 
-<p>
-    <strong>Gemaakt door:</strong><?php echo $blog_post['user_id']; ?>
-</p>
+    <p class="blogUser">
+        <strong>Gemaakt door:</strong><?php echo $blog_post['user_id']; ?>
+    </p>
+</div>
