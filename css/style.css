@@ -48,7 +48,8 @@ header{
                         "MainHome MainHome"
                         "main  main"
                         "footer footer";
-                       
+    
+    /* width: 2031; */
     }
 
 main {
@@ -61,7 +62,7 @@ main {
     padding: 15px;
     float: left;
     height: auto;
-    /* z-index: 12; */
+    z-index: 1; 
   }
 
 ul, li{
@@ -208,18 +209,13 @@ footer{
     
     #toggle:checked + .menu{
         display: block;
+        z-index: 2; 
     }
     #email, #wachtwoord{
         width: 300px;
         margin: auto;
     }
-    #logo{
-        visibility: hidden;
-        height: 0px;
-        width: 0px;
-        padding: 0px;
-            
-    }
+    
 } 
 
 .slideshow-container {

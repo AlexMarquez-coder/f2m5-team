@@ -19,7 +19,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	SimpleRouter::get( '/contact', 'WebsiteController@contact' )->name('contact');
 
 
-	SimpleRouter::get('/blog','BlogController@index')->name('blog.index');
+	SimpleRouter::get('/blog','BlogController@index')->name('blog.index'); 
 
 	SimpleRouter::get('/blog/{slug}','BlogController@showBlog')->name('blog.detail');
 	
