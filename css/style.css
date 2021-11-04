@@ -6,7 +6,25 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, from(#1E11A0), to(#ba9ffa)) fixed;
     /* background-repeat: no-repeat; */
 }
- 
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E11A0; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111111; 
+}
 
 
 header{
@@ -43,7 +61,7 @@ header{
 .heleContainer{
     display: grid;
     height: auto;
-    width: 100vw;     
+    /* width: 100vw;      */
     grid-template-areas:"header header"
                         "MainHome MainHome"
                         "main  main"
@@ -219,6 +237,10 @@ footer{
     #logo{
         width: 200px;
          
+    }
+    #contactText{
+        margin-right: 10px;
+        margin-left: 10px;
     }
 } 
 
@@ -415,6 +437,10 @@ footer{
         grid-template-rows: repeat(2, 1fr);
         padding: 90px;
     }
+    #contactText{
+        margin-right: 25px;
+        margin-left: 25px;
+    }
 
     /* .slideshow-container{
         float: none;
@@ -532,12 +558,24 @@ footer{
 .blogTitel{
     color: #FE8D0D;
 }
+.blogTest{
+    border-bottom: solid 2px #FE8D0D;
+    /* width: 200px; */
+}
+.bekijkPost{
+    font-size: x-large;
+}
+.blogContent{
 
-.blogContent
+}
 
-.blogDatum
+.blogDatum{
 
-.blogUser
+}
+
+.blogUser{
+
+}
 
 
 /* Eind blog styling */
