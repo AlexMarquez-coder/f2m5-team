@@ -117,6 +117,7 @@ ul, li{
     flex-direction: row;
     justify-content: right;
     padding-top: 25px;
+
 }
 
 #mainmenu li{ 
@@ -593,6 +594,10 @@ footer{
 
 .blogUser{
 
+}
+
+.error{
+    color: red;
 }
 
 

@@ -25,8 +25,8 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	});
 
 
+	
 	SimpleRouter::get('/blog','BlogController@index')->name('blog.index'); 
-
 	SimpleRouter::get('/blog/{slug}','BlogController@showBlog')->name('blog.detail');
 	
 	// STOP: Tot hier al je eigen URL's zetten, dit stukje laat de 4040 pagina zien als een route/url niet kan worden gevonden.

@@ -6,7 +6,7 @@
 
     <?php foreach($blog as $post):?>
         <div class="blogTest">
-            <h3 class="blogHomeTitel"><?php echo $post['titel']?></h3>
+            <h3 class="blogHomeTitel"><?php echo $post['title']?></h3>
             <a class="bekijkPost" href="<?php echo url('blog.detail',['slug' => $post['slug']] );?>">Bekijk post</a><br>
         </div><br>
     <?php endforeach;?>
