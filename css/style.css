@@ -310,6 +310,7 @@ footer{
     grid-area: over_onsText;
     text-align: left;
     padding: 30px;
+    border: #FE8D0D solid 2px;
 }
 
 
@@ -350,6 +351,7 @@ footer{
 
 #optext{
     font-weight: bold;
+    color: #F4FAFF;
 }
 .naam{
     font-weight: bold;
@@ -377,6 +379,7 @@ footer{
     padding: 30px;
     margin-left: 40px;
     margin-right: 40px;
+    border: #FE8D0D solid 2px;
 }
 
 
@@ -548,6 +551,7 @@ footer{
     grid-template-columns:  repeat(1, 1fr);
     grid-template-rows: repeat(1, 1fr);
     /* max-width: 800px; */
+    border: #FE8D0D solid 2px;
 }
 
 .blogBG2{
