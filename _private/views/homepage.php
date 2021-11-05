@@ -10,9 +10,9 @@
 
 <body>
   <div id="MainHome">
-    <div class="">
+    <div>
       <div class="item">
-        <div>
+        <div style="padding: 2rem;">
           <h2 class="homeTitel">Life sucks <span id="sometimes" class="item">sometimes.</span> </h2>
           <p class="homeTekst">Maar je staat er niet alleen voor <br>
           De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht.
@@ -46,8 +46,8 @@
           <span class="dot item"></span>
         </div>
       </div>
-      <button class=" button">Naar Community</button>
-      <div class="tekstHome_2">
+       <button class=" button">Naar Community</button>
+        <div class="tekstHome_2">
         <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
         <p class="homeTekst"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
           We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.<br></p>
