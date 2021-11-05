@@ -23,12 +23,13 @@ header{
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    padding: 1%;
+    
     grid-area: MainHome;
 }
 .item{
     display: flex;
     text-align: center;
+    
 }
 .button{
     
@@ -37,7 +38,16 @@ header{
     padding: 5px;
     align-items: center;
     justify-content: center;
+    margin: 20px;
+    
 
+}
+.center{
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
 }
 
 .heleContainer{
@@ -74,12 +84,14 @@ ul, li{
 .homeTitel{
     font-weight: 900;
     padding-top: 40px;
+    
 }
 
 .homeTitel, .homeTekst{
     text-align: left;
     color: #F4FAFF;
     padding-left: 40px;
+    padding: 0.5%;
     
 }
 
