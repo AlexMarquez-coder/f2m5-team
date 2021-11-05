@@ -6,7 +6,25 @@ body {
     background: -webkit-gradient(linear, left top, left bottom, from(#1E11A0), to(#ba9ffa)) fixed;
     /* background-repeat: no-repeat; */
 }
- 
+ /* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #1E11A0; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #111111; 
+}
 
 
 header{
@@ -53,7 +71,7 @@ header{
 .heleContainer{
     display: grid;
     height: auto;
-    width: 100vw;     
+    /* width: 100vw;      */
     grid-template-areas:"header header"
                         "MainHome MainHome"
                         "main  main"
@@ -67,13 +85,6 @@ main {
     text-align: center;
 }
 
-#logo{
-    width: 250px;
-    padding: 15px;
-    float: left;
-    height: auto;
-    z-index: 1; 
-  }
 
 ul, li{
     list-style: none;
@@ -130,6 +141,7 @@ a:hover{
     padding: 5px;
     border:  solid 2px #251605;
 }
+
 label{
     display: none;
 }
@@ -166,13 +178,21 @@ footer{
     grid-area: footer;
 }
 
-
+#logo{
+    width: 250px;
+    padding: 15px;
+    float: left;
+    height: auto;
+    z-index: 1; 
+}
 @media screen and (max-width: 865px){
     label{
         display: block;
         cursor: pointer;
         margin-top: 12px;
+        margin-right: 12px;
         width: 35px;
+        font-size: xx-large;
         float: right;
     }
     #fullForm{
@@ -221,13 +241,19 @@ footer{
     
     #toggle:checked + .menu{
         display: block;
-        z-index: 2; 
     }
     #email, #wachtwoord{
         width: 300px;
         margin: auto;
     }
-    
+    #logo{
+        width: 200px;
+         
+    }
+    #contactText{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 } 
 
 .slideshow-container {
@@ -375,11 +401,11 @@ footer{
     justify-content: space-evenly;
 }
 #kopje1{
-text-align: center;
+    text-align: center;
 }
 #kopje2{
     text-align: center;
-    }
+}
 /* Contact pagina end */
 
 @media screen and (max-width: 1205px){
@@ -423,6 +449,10 @@ text-align: center;
         grid-template-columns:  repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         padding: 90px;
+    }
+    #contactText{
+        margin-right: 25px;
+        margin-left: 25px;
     }
 
     /* .slideshow-container{
@@ -476,7 +506,15 @@ text-align: center;
         padding-bottom: 20px;
         border-bottom: solid 4px #251605;
     }
+    #logo{
+        z-index: -1;
+    }
+    #aanmeldknop{
+        padding: 1px;     
+    }
 }
+
+
 
 @media screen and (max-width: 705px){
 
@@ -533,12 +571,24 @@ text-align: center;
 .blogTitel{
     color: #FE8D0D;
 }
+.blogTest{
+    border-bottom: solid 2px #FE8D0D;
+    /* width: 200px; */
+}
+.bekijkPost{
+    font-size: x-large;
+}
+.blogContent{
 
-.blogContent
+}
 
-.blogDatum
+.blogDatum{
 
-.blogUser
+}
+
+.blogUser{
+
+}
 
 
 /* Eind blog styling */
