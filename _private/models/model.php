@@ -10,14 +10,14 @@ function getUsers() {
 	return $statement->fetchAll();
 }
 
-function getAllTopics(){
-	$connection = dbConnect();
-	$sql = 'SELECT * FROM `topics`';
-	$statement = $connection->query($sql);
-	$topics = $statement->fetchAll();
+// function getAllTopics(){
+// 	$connection = dbConnect();
+// 	$sql = 'SELECT * FROM `topics`';
+// 	$statement = $connection->query($sql);
+// 	$topics = $statement->fetchAll();
 	
-	return $topics;
-}
+// 	return $topics;
+// }
 
 function addTopic($title, $description){
 
@@ -44,7 +44,7 @@ function updateTopic($topicId,$newTitle,$newDescription){
 		]);
 		
 		return $result;
-}
+} 
 
 function deleteTopic($topicToDelete){
 		$connection = dbConnect();
@@ -55,6 +55,16 @@ function deleteTopic($topicToDelete){
 		]);
  
 		return $statement->rowCount();
+}
+
+function getAllTopics(){
+
+	$connection = dbConnect();
+	$sql = "SELECT * FROM `topics`ORDER BY `title` ASC";
+	$statement  = $connection->query( $sql );
+
+	return $statement->fetchAll();
+ 
 }
 
 function getAllBlogPosts(){
