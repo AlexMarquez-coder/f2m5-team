@@ -34,6 +34,7 @@ header{
    /* height: 100%;*/
     /* z-index: 12; */
     grid-area: header;
+    border: solid #FE8D0D 2px;
 }
 
 #MainHome{
