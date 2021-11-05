@@ -9,10 +9,10 @@
 </head>
 
 <body>
-  <div id="MainHome">
+  <div id="MainHome" style="margin: 4%;">
     <div>
       <div class="item">
-        <div style="padding: 2rem;">
+        <div >
           <h2 class="homeTitel">Life sucks <span id="sometimes" class="item">sometimes.</span> </h2>
           <p class="homeTekst">Maar je staat er niet alleen voor <br>
           De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht.
