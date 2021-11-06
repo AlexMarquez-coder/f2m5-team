@@ -46,7 +46,7 @@
           <span class="dot item"></span>
         </div>
       </div>
-       <button class=" button">Naar Community</button>
+       <button class="button" href=" ">Naar Community</button>
         <div class="tekstHome_2">
         <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
         <p class="homeTekst"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
@@ -55,13 +55,13 @@
 
       </div>
       <div style="color: white;" id="tekst_3">
-        <h2 class="homeTitel">Wij zijn een groeiende beweging van jongeren die zich inzet voor mentale gezondheid.</h3>
+        <h2 class="homeTitel">Wij zijn een groeiende beweging van jongeren die zich inzet voor<span id="sometimes"> mentale gezondheid.</span></h3>
           <p class="homeTekst">We leven in een samenleving waar onvoldoende ruimte is voor onze mentale gezondheid.<br> Daar willen wij samen verandering in brengen! We zijn een community van jongeren die ervaringen en tips uitwisselt op het gebied van mentale gezondheid en persoonlijke ontwikkeling. <br>
             Zo creëren we meer openheid en helpen we elkaar om te groeien.</p>
       </div>
 
       <div>
-        <button class="button ">Naar Community</button>
+        <button class="button">Wordt transformer</button>
       </div>
 
       <div>
@@ -69,17 +69,27 @@
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
       </div>
-      <div>
-        <h2 class="homeTitel">We helpen elkaar met onderwerpen als:</h2>
+      <div class="center"> 
+        <h2 class="homeTitel">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
 
           <li>
+          <button class="button " style="padding: 10px ; margin: 10px; margin-top: 10px;">Een positive mindset</button>
           </li>
           <li>
+          <button class="button item" style="padding: 10px ; margin: 10px;">Grenzen aangeven</button>
           </li>
           <li>
+          <button class="button " style="padding: 10px ; margin: 10px;">Zelfverzekerder worden en je eigen pad volgen.</button>
           </li>
           <li>
+          <button class="button item" style="padding: 10px ; margin: 10px;">Omgaan met verwachtingen van anderen.</button>
+          </li>
+          <li>
+          <button class="button " style="padding: 10px ; margin: 10px;">Je kwetsbaar opstellen.</button>
+          </li>
+          <li>
+          <button class="button item" style="padding: 10px ; margin: 10px;">Ontdekken wat écht belangrijk is voor jou.</button>
           </li>
         </ul>
 
@@ -94,7 +104,7 @@
 
       <div>
         <h2 class="homeTitel center">Geen tijd, maar wel bijdragen? Doneer!</h2>
-        <button class="button">Temp Button</button>
+        <button class="button">Doneer nu!</button>
       </div>
     </div>
   </div>
