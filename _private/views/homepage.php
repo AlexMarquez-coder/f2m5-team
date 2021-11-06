@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div id="MainHome" style="margin: 4%;">
+  <div id="MainHome" style="margin: 5%; margin-top: -5px;">
     <div>
       <div class="item">
         <div >
@@ -47,9 +47,9 @@
         </div>
       </div>
        <button class="button" href=" ">Naar Community</button>
-        <div class="tekstHome_2">
-        <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
-        <p class="homeTekst"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
+        <div class="tekstHome_2" id="homepage_tekst" >
+        <h2 class="homeTitel" style="color: black;">Praat over dingen die je eerder nergens kwijt kon.</h2>
+        <p class="homeTekst" style="color: black;"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
           We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.<br></p>
 
 
@@ -69,7 +69,7 @@
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
       </div>
-      <div class="center"> 
+      <div> 
         <h2 class="homeTitel">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
 
@@ -102,9 +102,11 @@
           Meld je dan aan als vrijwilliger!</p>
       </div>
 
-      <div>
-        <h2 class="homeTitel center">Geen tijd, maar wel bijdragen? Doneer!</h2>
-        <button class="button">Doneer nu!</button>
+      <div id="homepage_tekst">
+        <div>
+          <h2 class="homeTitel center" style="color: black;">Geen tijd, maar wel bijdragen? Doneer!</h2>
+          <button class="button center" style="margin-left: 30px; margin-top: 10px;">Doneer nu!</button>
+        </div>
       </div>
     </div>
   </div>

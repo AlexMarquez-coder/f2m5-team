@@ -25,6 +25,14 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #111111; 
 }
+#homepage_tekst{
+    background-color: #F4FAFF;
+    border-radius: 50px;
+    font-size: larger;
+    text-align: left;
+    padding: 25px;
+    border: #F4FAFF solid 0.5px;
+}
 
 
 header{
@@ -52,9 +60,12 @@ header{
 .button{
     background-color: #FE8D0D;
     margin-right: 20px;
-    padding: 5px;
+    padding: 15px;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
 
 }
 
