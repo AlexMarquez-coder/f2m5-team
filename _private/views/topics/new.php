@@ -1,19 +1,20 @@
 <?php $this->layout('layouts::website');?>
 
+
 <div class="blogBG">
     <h1 class="blogPost">Nieuwe blogpost aanmaken</h1><br>
     <form action="<?php echo url('topics.save')?>"  method="POST">
         <div class="form-group">
-            <input type="text" name="title" value="<?php echo input ('title')?>" class="form-control" id="email" placeholder="Titel">
+            <input type="text" name="title" value="<?php echo input ('title')?>" class="form-control" id="email" placeholder="Titel"><br>
             <?php if ( isset( $errors['title'])):?>
                 <span class="error"><?php echo $errors['title']?></span>
             <?php endif;?>
         </div><br>
 
         <div class="form-group">
-            <textarea name="desc" class="form-control" id="wachtwoord" placeholder="Beschrijving"><?php echo input('desc')?></textarea>  
-            <?php if ( isset( $errors['title'])):?>
-                <span class="error"><?php echo $errors['title']?></span>
+            <textarea name="desc" class="form-control" id="wachtwoord" placeholder="Beschrijving"><?php echo input('desc')?></textarea><br>  
+            <?php if ( isset( $errors['desc'])):?>
+                <span class="error"><?php echo $errors['desc']?></span>
             <?php endif;?>
             
         </div><br>

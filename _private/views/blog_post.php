@@ -2,11 +2,11 @@
 
 <div class="blogBG2">
     <h1 class="blogTitel">
-        <?php echo $blog_post['titel']; ?>
+        <?php echo $blog_post['title']; ?>
     </h1>
 
     <p class="blogContent">
-        <?php echo $blog_post['content']; ?>
+        <?php echo $blog_post['description']; ?>
     </p>
 
     <p class="blogDatum">

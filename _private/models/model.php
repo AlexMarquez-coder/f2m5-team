@@ -74,8 +74,20 @@ function getAllBlogPosts(){
 	$statement  = $connection->query( $sql );
 
 	return $statement->fetchAll();
- 
-}
+}	
+	function createBlog($title, $desc){
+		$connection = dbConnect();
+		$sql 		= "INSERT INTO `blogs` (`title`, `description`) VALUES (:title, :description )";
+		$statement  = $connection->prepare( $sql );
+
+		$params = 
+		[
+			'title' => $title,
+			'description' => $desc
+		];
+		$statement->execute($params);
+	}
+
 
 function getBlogPost($slug){
 

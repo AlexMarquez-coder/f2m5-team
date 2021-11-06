@@ -90,15 +90,16 @@ function current_route_is( $name ) {
 function validateBlogdata($data){
 
 	$errors = [];
+
 	$title = trim($data['title']);
 	$desc = trim($data['desc']);
 	
 	if ( empty($title)) {
-	$errors['title'] = 'vul een titel in';
+	$errors['title'] = 'Vul een titel in!';
 	}
 	
 	if ( empty($desc)){
-	$errors['desc'] = 'Vul de discription';
+	$errors['desc'] = 'Vul een discription!';
 	}
 	
 	$data = [
@@ -110,8 +111,6 @@ function validateBlogdata($data){
 	'data' => $data,
 	'errors' => $errors
 	];
-	
-	
 	
 	return $result;
 	
