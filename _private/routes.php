@@ -16,7 +16,7 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	SimpleRouter::post( '/registreren/verwerken', 'RegistrationController@handleRegistrationForm' )->name('register.handle' );
 	SimpleRouter::get( '/registreren/bedankt', 'RegistrationController@registrationThankYou' )->name('register.ThankYou');
 	SimpleRouter::get( '/over_ons', 'WebsiteController@over_ons' )->name('over_ons');
-	SimpleRouter::get( '/contact', 'WebsiteController@contact' )->name('contact');
+	SimpleRouter::get( '/contact', 'WebsiteController@contact' )->name('contact');	
 
 	SimpleRouter::group(['prefix' => '/topics'], function(){
 		SimpleRouter::get('','TopicController@index')->name('topics.index');

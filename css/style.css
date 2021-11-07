@@ -85,6 +85,15 @@ main {
     text-align: center;
 }
 
+footer{
+    grid-area: footer;
+    padding: 100px;
+    background-color: #F4FAFF;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
 
 ul, li{
     list-style: none;
@@ -173,9 +182,9 @@ label{
     margin-left: 150px;
     margin-right: 150px;
 }
-footer{
-    grid-area: footer;
-}
+
+
+
 
 #logo{
     width: 250px;

@@ -112,6 +112,10 @@
   </div>
 
 
+<?php $this->start('footer') ?>
+
+<?php $this->stop() ?>
+
   <script>
     var slideIndex = 0;
     showSlides();
@@ -141,9 +145,6 @@
 
 
 
-<?php $this->start('footer') ?>
-
-<?php $this->stop() ?>
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>

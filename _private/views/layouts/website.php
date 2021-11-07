@@ -45,10 +45,14 @@
     </main>
 
 
- <!-- <footer>
-            /*<*/
+    <footer>
+        <?php if ( $this->section( 'footer' ) ): ?>
+            <?php echo $this->section( 'footer' ) ?>
+        <?php else: ?>
+            <?php echo $this->fetch( 'footer.php' ) ?>
+        <?php endif ?>
            
-    </footer> -->
+    </footer>
 </div>
 <?php $this->start( 'javascript' ) ?>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
