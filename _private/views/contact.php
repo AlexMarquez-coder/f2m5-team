@@ -48,17 +48,19 @@
                 
         </div>
 </div>
+<br>
+<div class="fondsen">
 <h2 id="contactTitel">Onze<span id="sometimes">Partners</span></h2>
 <br>
         <a href="https://www.ma-web.nl/opendag/" target="_blank">
-            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="100"></a>
 
-        <a href="https://www.ma-web.nl/opendag/" target="_blank">
-            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
+        <a href="https://www.communicatieinnovatie.nl//" target="_blank">
+            <img alt="Qries" src="/Logo/comunicatie logo.jpg" height="100"></a>
 
-        <a href="https://www.ma-web.nl/opendag/" target="_blank">
-            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
-
+        <a href="https://pleindoneren.nl/" target="_blank">
+            <img alt="Qries" src="/Logo/pleindoneren-logo.jpg" height="100"></a>
+</div>
 
 
                 
