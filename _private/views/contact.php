@@ -22,6 +22,7 @@
                 <br>
                 samenwerken? Of ben je gewoon benieuwd wat wij zoal doen? 
             <br>
+            <img src="/images/elwin.png" style="width:50px">
             <br>
             <!-- <div id="kopje2"><strong>Neem gerust contact met ons op, dat vinden we leuk!</strong></div> -->
             <strong>Neem gerust contact met ons op, dat vinden we leuk!</strong>
@@ -47,6 +48,7 @@
                 
         </div>
 </div>
+<h2 id="contactTitel">Onze<span id="sometimes">Partners</span> </h2>
 
 <?php $this->start('footer')?>
 
