@@ -1,7 +1,9 @@
 
 body {
     font-family: 'Noto Sans', sans-serif;
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#1E11A0), to(#ba9ffa)) fixed;
     /* background-repeat: no-repeat; */
@@ -75,25 +77,28 @@ header{
     /* width: 100vw;      */
     grid-template-areas:"header header"
                         "MainHome MainHome"
-                        "main  main"
-                        "footer footer";
+                        "main  main";
     /* width: 2031; */
-    }
+}
 
 main {
     grid-area: main; 
     text-align: center;
 }
 
-footer{
+#footer{
     grid-area: footer;
-    padding: 100px;
+    margin-top: auto;
+    border-radius: 20px;
+    padding: 20px;
     background-color: #F4FAFF;
-    margin-bottom: 20px;
-    width: 100%;
-
+    border: solid #FE8D0D  2px;
 }
 
+/* .footerItems{
+    display: flex;
+    flex-direction: column;
+} */
 
 ul, li{
     list-style: none;
@@ -362,8 +367,14 @@ label{
 }
 .naam{
     font-weight: bold;
-    color: #F4FAFF;
+    color: #FE8D0D; 
+    margin-top: 12px;
     
+}
+
+.functie{
+    color: #F4FAFF;
+    margin-bottom: 20px;
 }
 
 /* .naam:hover{

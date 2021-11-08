@@ -102,12 +102,6 @@
           Meld je dan aan als vrijwilliger!</p>
       </div>
 
-      <div id="homepage_tekst">
-        <div>
-          <h2 class="homeTitel center" style="color: black;">Geen tijd, maar wel bijdragen? Doneer!</h2>
-          <button class="button center" style="margin-left: 30px; margin-top: 10px;">Doneer nu!</button>
-        </div>
-      </div>
     </div>
   </div>
 
@@ -140,11 +134,4 @@
     }
   </script>
 </body>
-
 </html>
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
