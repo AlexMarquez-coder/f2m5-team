@@ -85,14 +85,14 @@ main {
     text-align: center;
 }
 
-footer{
-    grid-area: footer;
-    padding: 100px;
-    background-color: #F4FAFF;
-    margin-bottom: 20px;
-    width: 100%;
+/* footer{ */
+    /* grid-area: footer; */
+    /* padding: 100px; */
+    /* background-color: #F4FAFF; */
+    /* margin-bottom: 20px; */
+    /* width: 100%; */
 
-}
+/* } */
 
 
 ul, li{
