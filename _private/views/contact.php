@@ -33,22 +33,35 @@
             <br>
         <div id="SM">
             <a href="https://www.instagram.com/transformer.community/" target="_blank">
-                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50">
+                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50"></a>
 
             <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw" target="_blank">
-                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50">
+                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50"></a>
                 
 
-            <a href="https://www.facebook.com/transformers.community" target="_blank">
-                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50">
+            <a href="https://www.facebook.com/transformers.community" target="_blank"> 
+                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50"></a>
                 
                 
-            <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank">
-                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50">
+            <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank"> 
+                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50"></a>
                 
         </div>
 </div>
-<h2 id="contactTitel">Onze<span id="sometimes">Partners</span> </h2>
+<h2 id="contactTitel">Onze<span id="sometimes">Partners</span></h2>
+<br>
+        <a href="https://www.ma-web.nl/opendag/" target="_blank">
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
+
+        <a href="https://www.ma-web.nl/opendag/" target="_blank">
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
+
+        <a href="https://www.ma-web.nl/opendag/" target="_blank">
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="50">
+
+
+
+                
 
 <?php $this->start('footer')?>
 
