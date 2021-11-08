@@ -129,8 +129,11 @@ ul, li{
     
 }
 
-
 #sometimes{
+    color: #FE8D0D;
+}
+
+#partners{
     color: #FE8D0D;
 }
 
@@ -198,9 +201,6 @@ label{
     margin-left: 150px;
     margin-right: 150px;
 }
-
-
-
 
 #logo{
     width: 250px;
@@ -406,8 +406,9 @@ label{
     /* grid-area: contact; */
     text-align: center;
     padding: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 50px;
     border: #FE8D0D solid 2px;
 }
 
@@ -438,6 +439,12 @@ label{
 #kopje2{
     text-align: center;
 }
+
+#fondsen {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 /* Contact pagina end */
 
 @media screen and (max-width: 1205px){
@@ -545,8 +552,6 @@ label{
         padding: 1px;     
     }
 }
-
-
 
 @media screen and (max-width: 705px){
 

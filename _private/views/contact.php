@@ -22,7 +22,7 @@
                 <br>
                 samenwerken? Of ben je gewoon benieuwd wat wij zoal doen? 
             <br>
-            <img src="/images/elwin.png" style="width:50px">
+            
             <br>
             <!-- <div id="kopje2"><strong>Neem gerust contact met ons op, dat vinden we leuk!</strong></div> -->
             <strong>Neem gerust contact met ons op, dat vinden we leuk!</strong>
@@ -49,18 +49,18 @@
         </div>
 </div>
 <br>
-<div class="fondsen">
-<h2 id="contactTitel">Onze<span id="sometimes">Partners</span></h2>
-<br>
+        <h1 id="contactTitel">Onze<span id="partners">Partners</span></h1>
+        <br>
+    <div id="fondsen">
         <a href="https://www.ma-web.nl/opendag/" target="_blank">
-            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="100"></a>
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="150"></a>
 
         <a href="https://www.communicatieinnovatie.nl//" target="_blank">
-            <img alt="Qries" src="/Logo/comunicatie logo.jpg" height="100"></a>
+            <img alt="Qries" src="/Logo/comunicatie logo.jpg" height="120"></a>
 
         <a href="https://pleindoneren.nl/" target="_blank">
-            <img alt="Qries" src="/Logo/pleindoneren-logo.jpg" height="100"></a>
-</div>
+            <img alt="Qries" src="/Logo/pleindoneren-logo.jpg" height="110"></a>
+    </div>
 
 
                 
