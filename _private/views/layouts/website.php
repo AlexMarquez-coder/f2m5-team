@@ -43,16 +43,6 @@
 			<?php echo $this->section( 'sidebar' ) ?>
         </aside>
     </main>
-
-
-    <footer>
-        <?php if ( $this->section( 'footer' ) ): ?>
-            <?php echo $this->section( 'footer' ) ?>
-        <?php else: ?>
-            <?php echo $this->fetch( 'footer.php' ) ?>
-        <?php endif ?>
-           
-    </footer>
 </div>
 <?php $this->start( 'javascript' ) ?>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -60,7 +50,17 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
 <?php $this->stop(); ?>
+
+<!-- <footer>
+   
+    
+    
+    
+</footer> -->
+
+
 </body>
+<?php echo $this->fetch( 'footer' ) ?>
 </html>
 
  
