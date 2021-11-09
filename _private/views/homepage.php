@@ -12,14 +12,14 @@
   <div id="MainHome" style="margin: 5%; margin-top: -5px;">
     <div>
       <div class="item">
-        <div >
+        <div>
           <h2 class="homeTitel">Life sucks <span id="sometimes" class="item">sometimes.</span> </h2>
           <p class="homeTekst">Maar je staat er niet alleen voor <br>
           De Transformers Community is er voor jongeren die <br>zelfverzekerd willen zijn en tegenslagen omzetten in kracht.
           <br> We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.
-
           </p>
         </div>
+      
 
 
 
@@ -100,6 +100,20 @@
         <p class="homeTekst center">Het is onze missie om kennis over mentale gezondheid mainstream te maken en jongeren te empoweren om mentaal gezond te zijn. En daar hebben wij jou bij nodig!
           Wil jij je ook inzetten voor een samenleving waarin onze mentale gezondheid centraal staat?<br>
           Meld je dan aan als vrijwilliger!</p>
+      </div>
+      <div>
+      	<div id="footer">
+        <div>
+        	<ul>
+                <li><a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="active"<?php endif ?>>Home</a>	</li>
+                <li><a href="<?php echo url( 'over_ons' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="active"<?php endif ?>>Over ons</a>	</li>
+                <li><a href="<?php echo url( 'contact' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Contact</a></li>		
+                <li><a href="<?php echo url( 'blog.detail' ) ?>"<?php if ( current_route_is( 'index' ) ): ?> class="active"<?php endif ?>>Tijdelijk Blog</a></li>
+            </ul>
+        </div>
+      </div>
+
+
       </div>
 
     </div>

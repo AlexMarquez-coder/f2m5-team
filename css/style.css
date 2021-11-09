@@ -86,6 +86,9 @@ main {
     text-align: center;
 }
 
+<<<<<<< HEAD
+footer{
+=======
 /* footer{ */
     /* grid-area: footer; */
     /* padding: 100px; */
@@ -95,21 +98,22 @@ main {
 
 /* } */
 #footer{
+>>>>>>> b762dac9c80d9a5891a37804b18cc9e6d984165f
     grid-area: footer;
-    margin-top: auto;
-    border-radius: 20px;
-    padding: 20px;
+    padding: 100px;
     background-color: #F4FAFF;
-    border: solid #FE8D0D  2px;
+    margin-bottom: 20px;
+    width: 100%;
 }
 
-/* .footerItems{
-    display: flex;
-    flex-direction: column;
-} */
+
+.footerItems{ 
+     display: flex; 
+     flex-direction: column; 
+} 
 
 ul, li{
-    list-style: none;
+    list-style:none;
     padding: 0;
     margin: 0;
 }
