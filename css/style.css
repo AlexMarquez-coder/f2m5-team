@@ -89,7 +89,7 @@ main {
 
 #footer{
     grid-area: footer;
-    padding: 50px;
+    padding: 25px;
     background-color: #F4FAFF;
     margin-top: auto ;
     border-radius: 20px;

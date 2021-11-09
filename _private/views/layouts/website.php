@@ -19,7 +19,6 @@
 <body>
 <div class="heleContainer">
     <header>
-        
         <nav>
             <img src="../Logo/Logo-simpel.webp" alt="" id="logo">
             <label for="toggle">&#9776;</label>
