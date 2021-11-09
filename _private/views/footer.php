@@ -8,7 +8,7 @@
              </ul>	
         </div>
          <div class="footer_item2">
-            
+         
                 <p><b>Volg ons op social media:</b></p>
              <ul>
              <li><a href="https://www.instagram.com/transformer.community/">Instagram</a></li>
