@@ -87,31 +87,101 @@ function current_route_is( $name ) {
 
 }
 
-function validateBlogdata($data){
+// function validateBlogdata($data){
+
+// 	$errors = [];
+
+// 	$title = trim($data['title']);
+// 	$desc = trim($data['desc']);
+	
+// 	if ( empty($title)) {
+// 	$errors['title'] = 'Vul een titel in!';
+// 	}
+	
+// 	if ( empty($desc)){
+// 	$errors['desc'] = 'Vul een discription!';
+// 	}
+	
+// 	$data = [
+// 	'title' => $title,
+// 	'desc' => $desc
+// 	];
+	
+// 	$result = [
+// 	'data' => $data,
+// 	'errors' => $errors
+// 	];
+	
+// 	return $result;
+	
+// }
+
+function validateRegistrationData($data){
+
 
 	$errors = [];
 
-	$title = trim($data['title']);
-	$desc = trim($data['desc']);
-	
-	if ( empty($title)) {
-	$errors['title'] = 'Vul een titel in!';
+	//Check: valideren of email echt een geldig email is
+	$email      = filter_var($data['email'], FILTER_VALIDATE_EMAIL);
+	$wachtwoord = trim($data['wachtwoord']);
+
+	if ($email === false) {
+		$errors['email'] = 'Geen geldig wachtwoord (minimaal 6 tekens)';
 	}
-	
-	if ( empty($desc)){
-	$errors['desc'] = 'Vul een discription!';
+
+	// Checks: wachtwoord minimaal 6 tekens bevat
+	if (strlen($wachtwoord) < 6 ) {
+		$errors['wachtwoord'] = 'Geen geldig wachtwoord (minimaal 6 tekens)';
 	}
-	
+
+	// resultaat array
 	$data = [
-	'title' => $title,
-	'desc' => $desc
+		'email' => $data['email'],
+		'wachtwoord' => $wachtwoord
 	];
-	
-	$result = [
-	'data' => $data,
-	'errors' => $errors
+
+	return [
+		'data' => $data,
+		'errors' => $errors
 	];
-	
-	return $result;
-	
+
 }
+
+
+function loginUser($user){
+	$_SESSION['user_id'] = $user['id'];
+}
+
+function logoutUser(){
+	unset($_SESSION['user_id']);
+}
+
+function isLoggedIn(){
+	return !empty($_SESSION['ueser_id']);
+}
+
+function loginCheck(){
+	if ( ! isLoggedIn() ) {
+		$login_url = url('login.form');
+		redirect($login_url);
+	}
+}
+
+function getLoggedInUserEmail(){
+
+	$email = "NIET INGELOGD";
+
+	if(! isLoggedIn()){
+		return $email;
+	}
+
+	$user_id = $_SESSION['user_id'];
+	$user = getUsersById($user_id);
+
+	if($user){
+		$email = $user['email'];
+	}
+
+	return $email;
+}
+	

@@ -86,7 +86,19 @@ main {
     text-align: center;
 }
 
+<<<<<<< HEAD
 footer{
+=======
+/* footer{ */
+    /* grid-area: footer; */
+    /* padding: 100px; */
+    /* background-color: #F4FAFF; */
+    /* margin-bottom: 20px; */
+    /* width: 100%; */
+
+/* } */
+#footer{
+>>>>>>> b762dac9c80d9a5891a37804b18cc9e6d984165f
     grid-area: footer;
     padding: 100px;
     background-color: #F4FAFF;
@@ -109,6 +121,11 @@ ul, li{
 .homeTitel{
     font-weight: 900;
     padding-top: 40px;
+    text-align: center;
+}
+.homeTitel2{
+    font-weight: 900;
+    text-align: center;
 }
 
 .homeTitel, .homeTekst{
@@ -118,6 +135,15 @@ ul, li{
     
 }
 
+.hulp{
+    font-weight: 900;
+    color: #F4FAFF;
+    padding-left: 40px;
+}
+
+#homepage_tekst{
+    border: #FE8D0D solid 2px;
+}
 #sometimes{
     color: #FE8D0D;
 }
@@ -555,6 +581,10 @@ label{
     }
     #BGtext{
         margin-top: 20px;
+    }
+    #fondsen {
+        display: flex;
+        flex-direction: column;
     }
 }
 
