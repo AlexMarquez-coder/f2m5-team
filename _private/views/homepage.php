@@ -69,7 +69,7 @@
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
       </div> -->
-      <!-- <div> 
+      <div> 
         <h2 class="hulp">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
 
@@ -93,10 +93,10 @@
           </li>
         </ul>
 
-      </div> -->
+      </div>
 
       <div>
-        <h2 class="homeTitel center">Wil je impact maken?</h2>
+        <h2 class="homeTitel center">Wil je <span id="sometimes">impact</span>  maken?</h2>
         <p class="homeTekst center">Het is onze missie om kennis over mentale gezondheid mainstream te maken en jongeren te empoweren om mentaal gezond te zijn. En daar hebben wij jou bij nodig!
           Wil jij je ook inzetten voor een samenleving waarin onze mentale gezondheid centraal staat?<br>
           Meld je dan aan als vrijwilliger!</p>
