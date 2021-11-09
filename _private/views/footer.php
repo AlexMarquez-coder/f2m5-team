@@ -1,4 +1,4 @@
-	<div id="footer" class="item">
+	<div id="footer" class="item" style="margin-top: 3%;">
         <div style="margin-left: 2%;" class="footer_item1">
         	<ul>
                 <li><a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="active"<?php endif ?>>Home</a>	</li>
@@ -8,7 +8,7 @@
              </ul>	
         </div>
          <div class="footer_item2">
-         
+            
                 <p><b>Volg ons op social media:</b></p>
              <ul>
              <li><a href="https://www.instagram.com/transformer.community/">Instagram</a></li>
@@ -20,19 +20,14 @@
         <div class="footer_item3">
         <h4><b>Transformers Community</b></h4>
         <p><b>Wij empoweren jongeren om mentaal gezond te zijn.</b></p>
-        <p>Stichting Transformers Community is geregistreerd bij de Kamer van Koophandel onder RSIN nummer 861477194.</p>
+        <p>Stichting Transformers Community is geregistreerd<br>
+        bij de Kamer van Koophandel onder RSIN nummer 861477194.</p>
 
         </div>
         
     </div>
- 
+    
 
-<style>
-    .item{
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-    }
-    foo
-</style>
+
+
 

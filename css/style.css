@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+   
     background: -webkit-gradient(linear, left top, left bottom, from(#1E11A0), to(#ba9ffa)) fixed;
     /* background-repeat: no-repeat; */
 }
@@ -54,11 +55,13 @@ header{
     height: 100vh;
     grid-area: MainHome;
     padding-bottom: 20px;
+    
 }
+
 .item{
     display: flex;
     text-align: center;
-}
+    }
 .button{
     background-color: #FE8D0D;
     margin-right: 20px;
@@ -80,7 +83,10 @@ header{
                         "main  main";
     /* width: 2031; */
 }
-
+.hulp{
+    text-align: left;
+    margin-top: 50px;
+}
 main {
     grid-area: main; 
     text-align: center;
@@ -89,12 +95,12 @@ main {
 
 #footer{
     grid-area: footer;
-    padding: 25px;
+    padding: 50px;
     background-color: #F4FAFF;
     margin-top: auto ;
     border-radius: 20px;
     border: solid 2px  #FE8D0D;
-    width: 100%;
+    width: 110%;
 }
 
 
@@ -126,6 +132,7 @@ ul, li{
     
 }
 
+
 .hulp{
     font-weight: 900;
     color: #F4FAFF;
@@ -138,6 +145,20 @@ ul, li{
 #sometimes{
     color: #FE8D0D;
 }
+.footer_item1{
+
+padding-left: 3%;
+}
+
+.footer_item2{
+    padding-left: 25%;
+}    
+
+.footer_item3{
+    padding-left: 25%;
+    text-align: left;
+
+}   
 
 #partners{
     color: #FE8D0D;
@@ -206,17 +227,6 @@ label{
     padding: 30px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 5%;
-}
-
-#loginForm{
-    background-color: #F4FAFF;
-    border: solid 3px #FE8D0D;
-    border-radius: 20px;
-    padding: 30px;
-    margin-left: 150px;
-    margin-right: 150px;
-    margin-top: 5%;
 }
 
 #logo{
@@ -227,6 +237,12 @@ label{
     z-index: 1; 
 }
 @media screen and (max-width: 865px){
+    .main_home{
+        padding: 1%;
+        margin: auto;
+        margin-top: 3%;
+
+    }
     label{
         display: block;
         cursor: pointer;
@@ -240,12 +256,6 @@ label{
         margin-left: 20px;
         margin-right: 20px;
     }
-
-    #loginForm{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
     .menu{
         text-align: center;
         width: 100%;
@@ -488,7 +498,14 @@ label{
         font-weight: bolder;
         grid-area: missie;
         justify-self: center;
+  }
+    #footer{
+        display: none;
     }
+
+
+
+
     
     #BGmissie{
         margin: 20px;
@@ -525,6 +542,12 @@ label{
     /* Over ons pagina end */
 
     /* contact pagina */
+    .item{
+        display: unset;
+        margin-bottom: 15px;
+    }
+ 
+ 
 
     #BGcontactpagetext{
         display: grid;
@@ -574,11 +597,13 @@ label{
     #aanmeldknop{
         padding: 1px;     
     }
-
-
 }
 
 @media screen and (max-width: 705px){
+
+    .slideshow-container{
+        display: inline-flex;
+    }
 
     .oprichterContainer{
         text-align: center;
@@ -595,11 +620,6 @@ label{
     #fondsen {
         display: flex;
         flex-direction: column;
-    }
-
-    .item{
-        display: flex;
-        flex-direction: row;
     }
 }
 

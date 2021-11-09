@@ -9,7 +9,7 @@
 </head>
 
 <body>
-  <div id="MainHome" style="margin: 5%; margin-top: -5px;">
+  <div id="MainHome" class="main_Home" style="margin: 5%; margin-top: -5px;">
     <div>
       <div class="item">
         <div>
@@ -23,17 +23,17 @@
 
 
 
-        <div class="slideshow-container " style="float: right;">
+        <div class="slideshow-container item " >
 
-          <div class="mySlides fade item">
+          <div class="mySlides fade ">
             <img src="/images/elwin.png" style="width:50%">
           </div>
 
-          <div class="mySlides fade item">
+          <div class="mySlides fade ">
             <img src="/images/Lisa.png" style="width:50%">
           </div>
 
-          <div class="mySlides fade item">
+          <div class="mySlides fade ">
             <img src="/images/yasmine.png" style="width:50%">
           </div>
 
@@ -48,11 +48,11 @@
       </div>
        <button class="button" href=" ">Naar Community</button>
       <div class="tekstHome_2" id="homepage_tekst" >
-          <h2 class="homeTitel2" style="color: black;"> <span id="sometimes">Praat over dingen</span>  die je eerder nergens kwijt kon.</h2>
+          <h2 class="homeTitel" style="color: black;"> <span id="sometimes">Praat over dingen</span>  die je eerder nergens kwijt kon.</h2>
           <p class="homeTekst" style="color: black;"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
           We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.<br></p>
 
-
+      
       </div>
       <div style="color: white;" id="tekst_3">
         <h2 class="homeTitel">Wij zijn een groeiende beweging van jongeren die zich inzet voor<span id="sometimes"> mentale gezondheid.</span></h3>
@@ -64,11 +64,11 @@
         <button class="button">Wordt transformer</button>
       </div>
 
-      <!-- <div>
+      <div>
         <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
-      </div> -->
+      </div>
       <div> 
         <h2 class="hulp">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
@@ -96,15 +96,17 @@
       </div>
 
       <div>
-        <h2 class="homeTitel center">Wil je <span id="sometimes">impact</span>  maken?</h2>
-        <p class="homeTekst center">Het is onze missie om kennis over mentale gezondheid mainstream te maken en jongeren te empoweren om mentaal gezond te zijn. En daar hebben wij jou bij nodig!
+        <h2 class="homeTitel ">Wil je <span id="sometimes">impact</span>  maken?</h2>
+        <p class="homeTekst ">Het is onze missie om kennis over mentale gezondheid mainstream te maken en jongeren te empoweren om mentaal gezond te zijn. En daar hebben wij jou bij nodig!
           Wil jij je ook inzetten voor een samenleving waarin onze mentale gezondheid centraal staat?<br>
           Meld je dan aan als vrijwilliger!</p>
       </div>
+      
       </div>
-
+      
     </div>
-  </div>
+    
+
 
 
 
@@ -133,4 +135,6 @@
     }
   </script>
 </body>
+
+
 </html>
