@@ -206,6 +206,17 @@ label{
     padding: 30px;
     margin-left: 150px;
     margin-right: 150px;
+    margin-top: 9%;
+}
+
+#loginForm{
+    background-color: #F4FAFF;
+    border: solid 3px #FE8D0D;
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 9%;
 }
 
 #logo{
@@ -229,6 +240,12 @@ label{
         margin-left: 20px;
         margin-right: 20px;
     }
+
+    #loginForm{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
     .menu{
         text-align: center;
         width: 100%;
