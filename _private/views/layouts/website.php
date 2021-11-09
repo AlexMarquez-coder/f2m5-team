@@ -55,7 +55,7 @@
 
 
 </body>
-<?php echo $this->fetch( 'footer' ) ?>
+<!-- <?php echo $this->fetch( 'footer' ) ?> -->
 </html>
 
  

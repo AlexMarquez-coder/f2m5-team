@@ -206,7 +206,7 @@ label{
     padding: 30px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 9%;
+    margin-top: 5%;
 }
 
 #loginForm{
@@ -216,7 +216,7 @@ label{
     padding: 30px;
     margin-left: 150px;
     margin-right: 150px;
-    margin-top: 9%;
+    margin-top: 5%;
 }
 
 #logo{
@@ -574,6 +574,8 @@ label{
     #aanmeldknop{
         padding: 1px;     
     }
+
+
 }
 
 @media screen and (max-width: 705px){
@@ -593,6 +595,11 @@ label{
     #fondsen {
         display: flex;
         flex-direction: column;
+    }
+
+    .item{
+        display: flex;
+        flex-direction: row;
     }
 }
 

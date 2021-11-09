@@ -1,4 +1,4 @@
-	<div id="footer" class="item" style="margin-top: 3%;">
+	<div id="footer" class="item">
         <div style="margin-left: 2%;" class="footer_item1">
         	<ul>
                 <li><a href="<?php echo url( 'home' ) ?>"<?php if ( current_route_is( '' ) ): ?>  class="active"<?php endif ?>>Home</a>	</li>
@@ -27,20 +27,12 @@
     </div>
  
 
- <style>
-.footer_item1{
-
-padding-left: 3%;
-}
-
-.footer_item2{
-    padding-left: 25%;
-}    
-
-.footer_item3{
-    padding-left: 25%;
-    text-align: left;
-
-}   
- </style>
+<style>
+    .item{
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    foo
+</style>
 
