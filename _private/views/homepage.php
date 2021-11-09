@@ -47,9 +47,9 @@
         </div>
       </div>
        <button class="button" href=" ">Naar Community</button>
-        <div class="tekstHome_2" id="homepage_tekst" >
-        <h2 class="homeTitel" style="color: black;">Praat over dingen die je eerder nergens kwijt kon.</h2>
-        <p class="homeTekst" style="color: black;"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
+      <div class="tekstHome_2" id="homepage_tekst" >
+          <h2 class="homeTitel2" style="color: black;"> <span id="sometimes">Praat over dingen</span>  die je eerder nergens kwijt kon.</h2>
+          <p class="homeTekst" style="color: black;"> De Transformers Community is er voor jongeren die zelfverzekerd willen zijn en tegenslagen omzetten in kracht.<br>
           We doen dit samen: zo leren we meer en helpen we elkaar om te groeien.<br></p>
 
 
@@ -64,13 +64,13 @@
         <button class="button">Wordt transformer</button>
       </div>
 
-      <div>
+      <!-- <div>
         <h2 class="homeTitel">Praat over dingen die je eerder nergens kwijt kon.</h2>
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
-      </div>
+      </div> -->
       <div> 
-        <h2 class="homeTitel">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
+        <h2 class="hulp">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
 
           <li>
