@@ -115,3 +115,41 @@ function validateBlogdata($data){
 	return $result;
 	
 }
+
+function loginUser($user){
+	$_SESSION['user_id'] = $user['id'];
+}
+
+function logoutUser(){
+	unset($_SESSION['user_id']);
+}
+
+function isLoggedIn(){
+	return !empty($_SESSION['ueser_id']);
+}
+
+function loginCheck(){
+	if ( ! isLoggedIn() ) {
+		$login_url = url('login.form');
+		redirect($login_url);
+	}
+}
+
+function getLoggedInUserEmail(){
+
+	$email = "NIET INGELOGD";
+
+	if(! isLoggedIn()){
+		return $email;
+	}
+
+	$user_id = $_SESSION['user_id'];
+	$user = getUsersById($user_id);
+
+	if($user){
+		$email = $user['email'];
+	}
+
+	return $email;
+}
+	
