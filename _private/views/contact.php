@@ -22,6 +22,7 @@
                 <br>
                 samenwerken? Of ben je gewoon benieuwd wat wij zoal doen? 
             <br>
+            
             <br>
             <!-- <div id="kopje2"><strong>Neem gerust contact met ons op, dat vinden we leuk!</strong></div> -->
             <strong>Neem gerust contact met ons op, dat vinden we leuk!</strong>
@@ -32,21 +33,37 @@
             <br>
         <div id="SM">
             <a href="https://www.instagram.com/transformer.community/" target="_blank">
-                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50">
+                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50"></a>
 
             <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw" target="_blank">
-                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50">
+                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50"></a>
                 
 
-            <a href="https://www.facebook.com/transformers.community" target="_blank">
-                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50">
+            <a href="https://www.facebook.com/transformers.community" target="_blank"> 
+                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50"></a>
                 
                 
-            <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank">
-                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50">
+            <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank"> 
+                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50"></a>
                 
         </div>
 </div>
+<br>
+        <h1 id="contactTitel">Onze<span id="partners">Partners</span></h1>
+        <br>
+    <div id="fondsen">
+        <a href="https://www.ma-web.nl/opendag/" target="_blank">
+            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="150"></a>
+
+        <a href="https://www.communicatieinnovatie.nl//" target="_blank">
+            <img alt="Qries" src="/Logo/comunicatie logo.jpg" height="120"></a>
+
+        <a href="https://pleindoneren.nl/" target="_blank">
+            <img alt="Qries" src="/Logo/pleindoneren-logo.jpg" height="110"></a>
+    </div>
+
+
+                
 
 <?php $this->start('footer')?>
 
