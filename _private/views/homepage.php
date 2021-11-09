@@ -69,7 +69,7 @@
         <p class="homeTekst">In onze online community kan je binnen een veilige omgeving (anoniem) jouw ervaringen en gevoelens delen. Hier helpen en steunen we elkaar.<br>
           Ook worden er wekelijks praktische tips gedeeld die jou helpen om zelfverzekerd te zijn en om te gaan met moeilijke situaties.</p>
       </div> -->
-      <div> 
+      <!-- <div> 
         <h2 class="hulp">We <span id="sometimes">helpen</span> elkaar met onderwerpen als:</h2>
         <ul>
 
@@ -93,7 +93,7 @@
           </li>
         </ul>
 
-      </div>
+      </div> -->
 
       <div>
         <h2 class="homeTitel center">Wil je impact maken?</h2>
