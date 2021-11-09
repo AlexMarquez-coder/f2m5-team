@@ -86,23 +86,14 @@ main {
     text-align: center;
 }
 
-<<<<<<< HEAD
-footer{
-=======
-/* footer{ */
-    /* grid-area: footer; */
-    /* padding: 100px; */
-    /* background-color: #F4FAFF; */
-    /* margin-bottom: 20px; */
-    /* width: 100%; */
 
-/* } */
 #footer{
->>>>>>> b762dac9c80d9a5891a37804b18cc9e6d984165f
     grid-area: footer;
-    padding: 100px;
+    padding: 50px;
     background-color: #F4FAFF;
-    margin-bottom: 20px;
+    margin-top: auto ;
+    border-radius: 20px;
+    border: solid 2px  #FE8D0D;
     width: 100%;
 }
 
