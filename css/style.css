@@ -86,33 +86,22 @@ main {
     text-align: center;
 }
 
-<<<<<<< HEAD
-/* footer{ */
-    /* grid-area: footer; */
-    /* padding: 100px; */
-    /* background-color: #F4FAFF; */
-    /* margin-bottom: 20px; */
-    /* width: 100%; */
-
-/* } */
-=======
-#footer{
+footer{
     grid-area: footer;
-    margin-top: auto;
-    border-radius: 20px;
-    padding: 20px;
+    padding: 100px;
     background-color: #F4FAFF;
-    border: solid #FE8D0D  2px;
+    margin-bottom: 20px;
+    width: 100%;
 }
->>>>>>> 326197fa6980f1bf73e19418079125f1c79b2106
 
-/* .footerItems{
-    display: flex;
-    flex-direction: column;
-} */
+
+.footerItems{ 
+     display: flex; 
+     flex-direction: column; 
+} 
 
 ul, li{
-    list-style: none;
+    list-style:none;
     padding: 0;
     margin: 0;
 }
