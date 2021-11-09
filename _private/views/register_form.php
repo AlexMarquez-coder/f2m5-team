@@ -1,8 +1,8 @@
 <?php $this->layout('layouts::website');?>
 <div id="fullForm">
-<h3 id="sometimes">Inschrijven</h3>
+<h3 id="sometimes">Aanmelden</h3>
 
-<p style="text-align: center;">Schrijf u snel in op de website om gebruik te maken van alle fantastische features.</p>
+<p style="text-align: center;">Meld u snel in op de website om gebruik te maken van alle fantastische features.</p>
 
 <form action="<?php echo url("register.handle")?>" method="POST" >
     <div class="form-group">

@@ -14,6 +14,7 @@
     <li>
        <button id="aanmeldknop"><a href="<?php echo url( 'register.form' ) ?>"<?php if ( current_route_is( '' ) ): ?> class="active"<?php endif ?>>Aanmelden</a></button> 
     </li>
+    
     <div class="user-menu">
     <?php if(isLoggedIn()):?>
     <em><?php echo getLoggedInUserEmail(); ?></em>
