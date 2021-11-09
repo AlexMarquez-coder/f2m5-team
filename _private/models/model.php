@@ -10,6 +10,35 @@ function getUsers() {
 	return $statement->fetchAll();
 }
 
+function getUsersByEmail($email){
+	$connection = dbConnect();
+ 	$sql        = "SELECT * FROM `gebruikers` WHERE `email` = :email";
+ 	$statement  = $connection->query( $sql );
+	$statement->execute( ['email' => $email ] );
+
+	if($statement->rowCount() === 1){
+		return $statement->fetch();
+	}
+
+	return false;
+}
+
+function userNotRegistered($email) {
+ 
+	// Checken of de gebruiker al bestaat
+	 
+	$connection = dbConnect();
+	$sql = "SELECT * FROM `gebruikers` WHERE `email` = :email";
+	$statement = $connection->prepare($sql);
+	$statement->execute(['email' => $email]);
+	 
+	$num_rows = $statement->rowCount();
+	 
+	return ($num_rows === 0); // True of false
+	 
+	}
+
+
 // function getAllTopics(){
 // 	$connection = dbConnect();
 // 	$sql = 'SELECT * FROM `topics`';
