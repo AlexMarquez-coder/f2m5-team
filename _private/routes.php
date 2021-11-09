@@ -18,6 +18,13 @@ SimpleRouter::group( [ 'prefix' => site_url() ], function () {
 	SimpleRouter::get( '/over_ons', 'WebsiteController@over_ons' )->name('over_ons');
 	SimpleRouter::get( '/contact', 'WebsiteController@contact' )->name('contact');	
 
+	// Login routes
+	SimpleRouter::get('/login', 'LoginController@loginForm')->name('login.form');
+	SimpleRouter::POST('/login/verwerken', 'LoginController@handleLoginForm')->name('login.handle');
+	SimpleRouter::get('/logout', 'LoginController@logout')->name('logout');
+
+	SimpleRouter::get('/ingelogd/dashboard', 'LoginController@userDashboard')->name('login.dashboard');
+
 	SimpleRouter::group(['prefix' => '/topics'], function(){
 		SimpleRouter::get('','TopicController@index')->name('topics.index');
 		SimpleRouter::get('/new','TopicController@new')->name('topics.new');
