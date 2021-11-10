@@ -87,34 +87,34 @@ function current_route_is( $name ) {
 
 }
 
-// function validateBlogdata($data){
+function validateBlogdata($data){
 
-// 	$errors = [];
+	$errors = [];
 
-// 	$title = trim($data['title']);
-// 	$desc = trim($data['desc']);
+	$title = trim($data['title']);
+	$desc = trim($data['desc']);
 	
-// 	if ( empty($title)) {
-// 	$errors['title'] = 'Vul een titel in!';
-// 	}
+	if ( empty($title)) {
+	$errors['title'] = 'Vul een titel in!';
+	}
 	
-// 	if ( empty($desc)){
-// 	$errors['desc'] = 'Vul een discription!';
-// 	}
+	if ( empty($desc)){
+	$errors['desc'] = 'Vul een discription!';
+	}
 	
-// 	$data = [
-// 	'title' => $title,
-// 	'desc' => $desc
-// 	];
+	$data = [
+	'title' => $title,
+	'desc' => $desc
+	];
 	
-// 	$result = [
-// 	'data' => $data,
-// 	'errors' => $errors
-// 	];
+	$result = [
+	'data' => $data,
+	'errors' => $errors
+	];
 	
-// 	return $result;
+	return $result;
 	
-// }
+}
 
 function validateRegistrationData($data){
 
