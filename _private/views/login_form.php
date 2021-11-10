@@ -1,5 +1,5 @@
 <?php $this->layout('layouts::website');?>
-<div id="loginForm">
+<div id="fullForm">
 <h3 id="partners">Inloggen</h3>
 
 <p style="text-align: center;">Hier kunt u inloggen</p>
