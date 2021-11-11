@@ -22,7 +22,7 @@
             Bij de Transformers Community creëren wij samen met jongeren meer kennis, <br>
             bewustzijn en openheid rondom mentale gezondheid. <br>
             Door te focussen op herkenning, erkenning en verbinding willen wij mentale problemen voorkomen in plaats van genezen. <br>
-            We werken er naar toe om uit te groeien tot een sociale beweging van jongeren die elkaar helpt om mentaal weerbaar en <br>
+            We werken er naar toe om uit te groeien tot een sociale beweging van jongeren die elkaar helpt om mentaal weerbaar en 
             veerkrachtig te zijn.
         </div>
 </div><br>
