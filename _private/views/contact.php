@@ -33,18 +33,18 @@
             <br>
         <div id="SM">
             <a href="https://www.instagram.com/transformer.community/" target="_blank">
-                <img alt="Qries" src="/icons/instagram_new_icon_512px.png" height="50"></a>
+                <img alt="Qries" src="<?php echo site_url('/icons/instagram_new_icon_512px.png')?>" height="50"></a>
 
             <a href="https://www.youtube.com/channel/UCvN0_IYGVy6s1jFj2enGIsw" target="_blank">
-                <img alt="Qries" src="/icons/youtube_icon_512px.png" height="50"></a>
+                <img alt="Qries" src="<?php echo site_url('/icons/youtube_icon_512px.png')?>" height="50"></a>
                 
 
             <a href="https://www.facebook.com/transformers.community" target="_blank"> 
-                <img alt="Qries" src="/icons/facebook_icon_512px.png" height="50"></a>
+                <img alt="Qries" src="<?php echo site_url('/icons/facebook_icon_512px.png')?>" height="50"></a>
                 
                 
             <a href="https://www.linkedin.com/company/transformerscommunity/" target="_blank"> 
-                <img alt="Qries" src="/icons/linkedin_icon_512px.png" height="50"></a>
+                <img alt="Qries" src="<?php echo site_url('/icons/linkedin_icon_512px.png')?>" height="50"></a>
                 
         </div>
 </div>
@@ -53,13 +53,11 @@
         <br>
     <div id="fondsen">
         <a href="https://www.ma-web.nl/opendag/" target="_blank">
-            <img alt="Qries" src="/Logo/Mediacollege-nw.png" height="150"></a>
-
-        <a href="https://www.communicatieinnovatie.nl//" target="_blank">
-            <img alt="Qries" src="/Logo/comunicatie logo.jpg" height="120"></a>
-
+            <img alt="Qries" src="<?php echo site_url('/Logo/Mediacollege-nw.png')?>" height="150"></a>
         <a href="https://pleindoneren.nl/" target="_blank">
-            <img alt="Qries" src="/Logo/pleindoneren-logo.jpg" height="110"></a>
+                    <img alt="Qries" src="<?php echo site_url('/Logo/pleindoneren-logo.jpg')?>" height="110"></a>
+        <a href="https://www.communicatieinnovatie.nl//" target="_blank">
+            <img alt="Qries" src="<?php echo site_url('/Logo/comunicatie logo.jpg')?>" height="120"></a>
     </div>
 
 

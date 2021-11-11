@@ -26,15 +26,15 @@
         <div class="slideshow-container item " >
 
           <div class="mySlides fade ">
-            <img src="/images/elwin.png" style="width:50%">
+            <img src="<?php echo site_url('/images/elwin.png')?>" style="width:50%">
           </div>
 
           <div class="mySlides fade ">
-            <img src="/images/Lisa.png" style="width:50%">
+            <img src="<?php echo site_url('/images/Lisa.png')?>" style="width:50%">
           </div>
 
           <div class="mySlides fade ">
-            <img src="/images/yasmine.png" style="width:50%">
+            <img src="<?php echo site_url('/images/yasmine.png')?>" style="width:50%">
           </div>
 
         </div>
