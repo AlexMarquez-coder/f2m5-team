@@ -11,7 +11,6 @@
     <link rel="shortcut icon" href="<?php echo site_url ('/Logo/Logo-simpel.webp')?>">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="<?php echo site_url( '/css/style.css' ) ?>" media="all">
-    <link rel="stylesheet" href="<?php echo site_url( '/css/style_old.css' ) ?>" media="all">
 	<?php if ( $this->section( 'css' ) ): ?>
 		<?php echo $this->section( 'css' ) ?>
 	<?php endif; ?>

@@ -106,13 +106,16 @@ function getAllBlogPosts(){
 }	
 	function createBlog($title, $desc){
 		$connection = dbConnect();
-		$sql 		= "INSERT INTO `blogs` (`title`, `description`) VALUES (:title, :description )";
+		$slug = strtolower($title);
+		$slug = str_replace(' ', '-', $slug);
+		$sql 		= "INSERT INTO `blogs` (`title`, `description`, `slug` ) VALUES (:title, :description, :slug )";
 		$statement  = $connection->prepare( $sql );
 
 		$params = 
 		[
 			'title' => $title,
-			'description' => $desc
+			'description' => $desc,
+			'slug'=> $slug
 		];
 		$statement->execute($params);
 	}
